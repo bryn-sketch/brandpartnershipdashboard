@@ -74,7 +74,25 @@ function enrichTask(t) {
     paidValue: cfNumber(t, FIELD_IDS.paidValue) || 0,
     giftedValue: cfNumber(t, FIELD_IDS.giftedValue) || 0,
     partnershipTypes: cfLabels(t, FIELD_IDS.partnershipType),
+    clientOnboardingDate: cfDateMs(t, FIELD_IDS.clientOnboardingDate),
   };
+}
+
+const AVG_DAYS_PER_MONTH = 30.437;
+
+// Client Onboarding Date is set the same on every task in a client's list —
+// take whichever value shows up first.
+function findCampaignStart(tasks) {
+  for (const t of tasks) {
+    if (t.clientOnboardingDate) return t.clientOnboardingDate;
+  }
+  return null;
+}
+
+function monthsActive(campaignStartMs, now) {
+  if (!campaignStartMs) return null;
+  const days = (now.getTime() - campaignStartMs) / 86400000;
+  return Math.max(Math.round((days / AVG_DAYS_PER_MONTH) * 10) / 10, 0);
 }
 
 function bitesByMonthTrend(tasks, now, dateOf) {
@@ -172,12 +190,16 @@ function computeBucketedMetrics(client, enriched, now) {
   const ytdValueLanded = ytdPaid.reduce((s, t) => s + t.paidValue, 0) + ytdGifted.reduce((s, t) => s + t.giftedValue, 0);
   const avgPaidDeal = ytdPaid.length > 0 ? ytdPaid.reduce((s, t) => s + t.paidValue, 0) / ytdPaid.length : 0;
 
+  const campaignStartAt = findCampaignStart(enriched);
+
   return {
     slug: client.slug,
     name: client.name,
     totalBrands: trackedTasks.length,
     activeCount: bitesTasks.length + meetingsTasks.length,
     statusCounts,
+    campaignStartAt,
+    monthsActive: monthsActive(campaignStartAt, now),
     lastActivityAt: mostRecentUpdate,
     agingBrands,
     isAging: agingBrands.length > 0,
@@ -246,11 +268,15 @@ function computeLegacyMetrics(client, enriched, now) {
   }
   const avgPaidDeal = ytdPaidDealCount > 0 ? ytdPaidValueSum / ytdPaidDealCount : 0;
 
+  const campaignStartAt = findCampaignStart(enriched);
+
   return {
     slug: client.slug,
     name: client.name,
     totalBrands: enriched.length,
     activeCount,
+    campaignStartAt,
+    monthsActive: monthsActive(campaignStartAt, now),
     statusCounts,
     lastActivityAt: mostRecentUpdate,
     agingBrands,

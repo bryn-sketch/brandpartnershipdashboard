@@ -53,7 +53,7 @@
   thead th .underline{display:block;width:22px;height:2px;border-radius:2px;margin-bottom:7px}
   thead th.r,tbody td.r{text-align:right}
   thead th.c,tbody td.c{text-align:center}
-  tbody td{padding:12px 10px;border-bottom:1px solid #f1f1f2;vertical-align:middle}
+  tbody td{padding:12px 10px;border-bottom:1px solid #f1f1f2;vertical-align:middle;white-space:nowrap}
   tbody tr:last-child td{border-bottom:none}
   .acct{font-weight:600}
   .num-c{font-weight:700;font-variant-numeric:tabular-nums}
@@ -105,6 +105,7 @@
             <th class="c"><span class="underline" style="background:var(--mint-text)"></span>Unpaid</th>
             <th class="c"><span class="underline" style="background:var(--green-text)"></span>Landed</th>
             <th class="r"><span class="underline" style="background:var(--ink);margin-left:auto"></span>Total landed value</th>
+            <th class="r">Campaign</th>
             <th class="r">Last activity</th>
           </tr>
         </thead>
@@ -128,6 +129,11 @@ const fmtAgo = (ms) => {
   if (d <= 0) return 'today';
   if (d === 1) return '1 day ago';
   return `${d} days ago`;
+};
+const fmtCampaign = (startMs, months) => {
+  if (!startMs) return '<span class="ok">—</span>';
+  const date = new Date(startMs).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+  return `${date}<div class="sub2" style="margin-top:2px">${months} mo active</div>`;
 };
 
 function renderSummary(clients) {
@@ -182,6 +188,7 @@ function renderRoster(clients) {
       <td class="c">${cell(k.unpaidCount, 'n-mint')}</td>
       <td class="c">${cell(c.funnel.landed, 'n-green')}</td>
       <td class="r num-c">${money(k.totalLandedValue)}</td>
+      <td class="r">${fmtCampaign(c.campaignStartAt, c.monthsActive)}</td>
       <td class="r ${c.isAging ? 'flag' : 'ok'}">${fmtAgo(c.lastActivityAt)}${c.isAging ? ` ⚑ ${c.agingBrands.length} stale` : ''}</td>
     </tr>
   `;

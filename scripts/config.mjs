@@ -62,6 +62,9 @@ export const FIELD_IDS = {
   paidValue: "2ff5cfa9-6c4e-4b3c-bbbe-1b18248e847c",
   giftedValue: "4c355692-440a-4d74-8c34-a9d9d7a1b124",
   partnershipType: "8cde1916-1096-40f2-b087-5b096226cad1",
+  // Same value on every task in a client's list — when the client's
+  // campaign/partnership development actually started.
+  clientOnboardingDate: "1c94ae99-bb73-47d5-a3a1-21a2b2c60e0b",
 };
 
 // Canonical pipeline order, low to high. "passed" is a terminal drop-out and
