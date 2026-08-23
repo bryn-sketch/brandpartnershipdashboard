@@ -1,35 +1,19 @@
 {
-  "generatedAt": "2026-08-23T15:28:17.576Z",
+  "generatedAt": "2026-08-23T15:44:53.775Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
       "totalBrands": 131,
       "activeCount": 32,
-      "lastActivityAt": 1787349743007,
-      "agingBrands": [
-        {
-          "name": "Fast Company Innovation Festival",
-          "status": "follow up",
-          "daysSince": 71
-        },
-        {
-          "name": "Melissa Wood Health",
-          "status": "follow up",
-          "daysSince": 59
-        },
-        {
-          "name": "UCLA Class Guest Speaker",
-          "status": "client meeting booked",
-          "daysSince": 27
-        }
-      ],
-      "isAging": true,
+      "lastActivityAt": 1787499815652,
+      "agingBrands": [],
+      "isAging": false,
       "kpis": {
-        "meetingsCount": 101,
-        "newBitesThisMonth": 0,
-        "newBitesPriorMonth": 0,
-        "bitesHaveData": false,
+        "meetingsCount": 98,
+        "newBitesThisMonth": 6,
+        "newBitesPriorMonth": 3,
+        "bitesHaveData": true,
         "paidCount": 0,
         "paidValueTotal": 0,
         "giftedCount": 0,
@@ -38,9 +22,9 @@
         "affiliateCount": 0
       },
       "funnel": {
-        "bites": 116,
-        "meetings": 101,
-        "landed": 100
+        "bites": 112,
+        "meetings": 98,
+        "landed": 98
       },
       "trend": [
         {
