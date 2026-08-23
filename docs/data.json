@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:48:11.254Z",
+  "generatedAt": "2026-08-23T16:53:50.749Z",
   "clients": [
     {
       "slug": "vadali",
@@ -18,7 +18,7 @@
         "unpaid": 1,
         "affiliate": 1
       },
-      "lastActivityAt": 1787499815652,
+      "lastActivityAt": 1787503889577,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -29,9 +29,10 @@
         "paidCount": 0,
         "paidValueTotal": 0,
         "giftedCount": 1,
-        "giftedValueTotal": 0,
+        "giftedValueTotal": 120,
         "unpaidCount": 1,
-        "affiliateCount": 1
+        "affiliateCount": 1,
+        "totalLandedValue": 120
       },
       "funnel": {
         "bites": 12,
@@ -116,7 +117,8 @@
         "giftedCount": 2,
         "giftedValueTotal": 0,
         "unpaidCount": 0,
-        "affiliateCount": 9
+        "affiliateCount": 9,
+        "totalLandedValue": 38267
       },
       "funnel": {
         "bites": 19,
@@ -183,7 +185,7 @@
         "pending approval": 8,
         "passed": 1
       },
-      "lastActivityAt": 1787249554080,
+      "lastActivityAt": 1787503765643,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -194,9 +196,10 @@
         "paidCount": 0,
         "paidValueTotal": 0,
         "giftedCount": 7,
-        "giftedValueTotal": 15350,
+        "giftedValueTotal": 350,
         "unpaidCount": 0,
-        "affiliateCount": 0
+        "affiliateCount": 0,
+        "totalLandedValue": 350
       },
       "funnel": {
         "bites": 3,
