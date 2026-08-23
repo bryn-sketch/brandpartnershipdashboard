@@ -2,12 +2,28 @@ export const CLICKUP_API = "https://api.clickup.com/api/v2";
 
 // One entry per client folder in the "UL ROSTER" ClickUp space. Each folder's
 // "🤝 PARTNER DEVELOPMENT" list holds one task per brand being pitched.
+//
+// `statusBuckets`, when present, means this client's ClickUp statuses have
+// been renamed to map directly onto dashboard categories: any status not
+// listed in any bucket is excluded from the dashboard entirely (no
+// movement / already closed out, e.g. "pending approval", "initial
+// outreach", "complete", "passed"). A client without `statusBuckets` falls
+// back to the legacy pipeline-stage + Partnership Type label logic in
+// metrics.mjs, until its statuses are confirmed and migrated the same way.
 export const CLIENTS = [
   {
     slug: "vadali",
     name: "Dr. Sirisha Vadali, Vadali MD",
     folderId: "90117930542",
     listId: "901113694845",
+    statusBuckets: {
+      bites: ["follow up", "in communication"],
+      meetings: ["meetings"],
+      gifted: ["gifted"],
+      affiliate: ["affiliate"],
+      unpaid: ["unpaid"],
+      paid: ["paid"],
+    },
   },
   {
     slug: "jordyn",

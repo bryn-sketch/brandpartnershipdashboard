@@ -139,7 +139,7 @@ function renderRoster(clients) {
       <td class="acct">${c.name}</td>
       <td>
         <span class="badge b-active">${c.activeCount} active</span>
-        <span class="badge b-meetings">${c.kpis.meetingsCount} meetings+</span>
+        <span class="badge b-meetings">${c.kpis.meetingsCount} meetings</span>
         <span class="badge b-landed">${c.funnel.landed} landed</span>
       </td>
       <td class="r ${c.isAging ? 'flag' : 'ok'}">${fmtAgo(c.lastActivityAt)}${c.isAging ? ` ⚑ ${c.agingBrands.length} stale` : ''}</td>
@@ -193,14 +193,14 @@ function renderClient(c) {
         <div class="meta">${c.totalBrands} brands tracked · last activity <b style="color:var(--ink)">${fmtAgo(c.lastActivityAt)}</b>${c.isAging ? ' <span class="flag">⚑ aging</span>' : ''}</div>
       </div>
       <div class="kpis">
-        <div class="kpi"><span class="tag t-lilac">Meetings</span><div class="num">${k.meetingsCount}</div><div class="lbl">current pipeline, reached or beyond</div></div>
+        <div class="kpi"><span class="tag t-lilac">Meetings</span><div class="num">${k.meetingsCount}</div><div class="lbl">current pipeline</div></div>
         <div class="kpi"><span class="tag t-mint">New bites</span><div class="num">${k.newBitesThisMonth}</div><div class="lbl">this month</div><div class="val">${bitesNote}</div></div>
         <div class="kpi"><span class="tag t-pink">Paid deals</span><div class="num">${k.paidCount}</div><div class="lbl">landed</div><div class="val">${money(k.paidValueTotal)}</div></div>
         <div class="kpi"><span class="tag t-peach">Gifted</span><div class="num">${k.giftedCount}</div><div class="lbl">landed</div><div class="val">${money(k.giftedValueTotal)}</div></div>
         <div class="kpi"><span class="tag t-sky">Affiliate</span><div class="num">${k.affiliateCount}</div><div class="lbl">active affiliates</div></div>
         <div class="kpi"><span class="tag t-green">Unpaid</span><div class="num">${k.unpaidCount}</div><div class="lbl">events / speaking</div></div>
       </div>
-      <div class="kpi-note">Meetings is a live pipeline count (ClickUp has no "meeting booked" date to trend month-over-month). Paid/Gifted/Affiliate/Unpaid only count brands with an explicit Partnership Type set in ClickUp.</div>
+      <div class="kpi-note">Meetings/Paid/Gifted/Affiliate/Unpaid reflect each brand's current ClickUp status (a live snapshot — ClickUp has no "meeting booked" date to trend month-over-month).</div>
       <div class="grid2">
         <div>${renderFunnel(c.funnel)}</div>
         <div>${renderTrend(c.trend, c.trendHasData)}</div>
