@@ -2,8 +2,23 @@
 
 Per-client dashboard pulled nightly from ClickUp's **UL ROSTER** space, where
 each client folder's **🤝 PARTNER DEVELOPMENT** list holds one task per brand
-being pitched. See `scripts/config.mjs` for the client → ClickUp list mapping
-and the pipeline-stage taxonomy.
+being pitched. See `scripts/config.mjs` for the client → ClickUp list mapping.
+
+Each client's ClickUp statuses are read one of two ways, controlled by
+whether that client has a `statusBuckets` entry in `scripts/config.mjs`:
+
+- **Bucketed** (current default): the client's ClickUp statuses have been
+  renamed to map directly onto dashboard categories — `follow up` / `in
+  communication` → Bites, `meetings` → Meetings, and `gifted` / `affiliate`
+  / `unpaid` / `paid` → Landed. Any other status (`pending approval`,
+  `initial outreach`, `complete`, `passed`, or any other leftover status)
+  is excluded from the dashboard entirely — no forward movement, or
+  already closed out.
+- **Legacy** (fallback for a client without `statusBuckets`): stage order
+  + the Partnership Type custom field, per the original pipeline
+  (`pending approval → initial outreach → follow up → in communication →
+  client meeting booked → gifting secured/affiliate partners → deal
+  secured → active partnership → complete`).
 
 ## One-time setup
 
@@ -33,19 +48,18 @@ python3 -m http.server -d docs 8080   # then open localhost:8080
 ## Adding another client
 
 Add a `{ slug, name, folderId, listId }` entry to `CLIENTS` in
-`scripts/config.mjs`, pointing at that folder's "🤝 PARTNER DEVELOPMENT" list ID.
+`scripts/config.mjs`, pointing at that folder's "🤝 PARTNER DEVELOPMENT" list
+ID. If that list's statuses have already been renamed to match the bucketed
+scheme (see above), add a `statusBuckets` entry too, copying the shape used
+for the existing clients — otherwise it falls back to the legacy logic.
 
-## Known data gaps (as of initial build)
+## Known data gaps
 
-Several fields this dashboard depends on were only recently added to ClickUp
-and aren't backfilled on older brand tasks yet:
-
-- **Conversation Start Date** and **Deal Closed Date** — until these are
-  filled in, "new bites by month" and the paid-value trend chart will show
-  as empty/zero (the dashboard says so explicitly rather than faking data).
-- **Partnership Type** (Paid/Gifted/Affiliate/Unpaid label) — until set,
-  a brand won't count toward the Paid/Gifted/Affiliate/Unpaid tiles even if
-  it has a dollar value or is in a "won" status.
-- The pipeline-stage funnel (Bites → Meetings → Landed) and the "at a
-  glance" roster don't depend on those fields — they use ClickUp's status
-  and last-updated timestamp directly, so they're accurate today.
+- **Conversation Start Date** and **Deal Closed Date** drive "new bites by
+  month" and the paid-value-by-month trend chart. Where these aren't filled
+  in on a brand's task, that brand simply won't show up in those specific
+  views (the dashboard says so explicitly rather than faking data) — the
+  Bites/Meetings/Landed pipeline counts don't depend on them at all.
+- **Paid Value** / **Gifted Value** dollar totals only reflect what's
+  actually filled in on each task — a brand with no dollar amount logged
+  still counts toward its bucket, just contributes $0.

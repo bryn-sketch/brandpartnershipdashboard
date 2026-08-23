@@ -147,17 +147,38 @@ function renderRoster(clients) {
   `).join('');
 }
 
-function renderFunnel(f) {
-  const max = f.bites || 1;
+function renderFunnel(f, mode) {
+  if (mode === 'legacy') {
+    // Legacy clients: bites/meetings/landed are cumulative pipeline-stage
+    // thresholds over the same population, so "% of bites" is a real funnel.
+    const max = f.bites || 1;
+    const pct = (n) => Math.max(Math.round((n / max) * 100), n > 0 ? 6 : 0);
+    const conv = (n) => f.bites > 0 ? Math.round((n / f.bites) * 100) : 0;
+    return `
+      <div class="mini">Conversion funnel · current pipeline</div>
+      <div class="frow"><div class="fl">Bites</div><div class="fbar" style="width:${pct(f.bites)}%;background:var(--lilac)">${f.bites}</div></div>
+      <div class="frow"><div class="fl">Meetings</div><div class="fbar" style="width:${pct(f.meetings)}%;background:var(--sky)">${f.meetings}</div></div>
+      <div class="fconv">${conv(f.meetings)}% of bites reached a meeting</div>
+      <div class="frow"><div class="fl">Landed</div><div class="fbar" style="width:${pct(f.landed)}%;background:var(--green-pill)">${f.landed}</div></div>
+      <div class="fconv">${conv(f.landed)}% of bites landed (any type)</div>
+    `;
+  }
+  // Bucketed clients: Bites, Meetings, and Landed are separate, non-overlapping
+  // status groups (a brand is in exactly one), so this is a pipeline mix, not
+  // a sequential funnel — bars scale against the largest group, and each
+  // caption is a share of everything currently tracked.
+  const total = f.bites + f.meetings + f.landed || 1;
+  const max = Math.max(f.bites, f.meetings, f.landed, 1);
   const pct = (n) => Math.max(Math.round((n / max) * 100), n > 0 ? 6 : 0);
-  const conv = (n) => f.bites > 0 ? Math.round((n / f.bites) * 100) : 0;
+  const share = (n) => Math.round((n / total) * 100);
   return `
-    <div class="mini">Conversion funnel · current pipeline</div>
+    <div class="mini">Pipeline mix · current</div>
     <div class="frow"><div class="fl">Bites</div><div class="fbar" style="width:${pct(f.bites)}%;background:var(--lilac)">${f.bites}</div></div>
+    <div class="fconv">${share(f.bites)}% of tracked brands</div>
     <div class="frow"><div class="fl">Meetings</div><div class="fbar" style="width:${pct(f.meetings)}%;background:var(--sky)">${f.meetings}</div></div>
-    <div class="fconv">${conv(f.meetings)}% of bites reached a meeting</div>
+    <div class="fconv">${share(f.meetings)}% of tracked brands</div>
     <div class="frow"><div class="fl">Landed</div><div class="fbar" style="width:${pct(f.landed)}%;background:var(--green-pill)">${f.landed}</div></div>
-    <div class="fconv">${conv(f.landed)}% of bites landed (any type)</div>
+    <div class="fconv">${share(f.landed)}% of tracked brands</div>
   `;
 }
 
@@ -202,7 +223,7 @@ function renderClient(c) {
       </div>
       <div class="kpi-note">Meetings/Paid/Gifted/Affiliate/Unpaid reflect each brand's current ClickUp status (a live snapshot — ClickUp has no "meeting booked" date to trend month-over-month).</div>
       <div class="grid2">
-        <div>${renderFunnel(c.funnel)}</div>
+        <div>${renderFunnel(c.funnel, c.funnelMode)}</div>
         <div>${renderTrend(c.trend, c.trendHasData)}</div>
       </div>
       <div class="ytd">
