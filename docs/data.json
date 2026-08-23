@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:02:28.975Z",
+  "generatedAt": "2026-08-23T16:07:21.362Z",
   "clients": [
     {
       "slug": "vadali",
@@ -38,6 +38,7 @@
         "meetings": 1,
         "landed": 3
       },
+      "funnelMode": "buckets",
       "trend": [
         {
           "label": "Mar",
@@ -122,6 +123,7 @@
         "meetings": 0,
         "landed": 16
       },
+      "funnelMode": "buckets",
       "trend": [
         {
           "label": "Mar",
@@ -201,6 +203,7 @@
         "meetings": 0,
         "landed": 7
       },
+      "funnelMode": "buckets",
       "trend": [
         {
           "label": "Mar",
