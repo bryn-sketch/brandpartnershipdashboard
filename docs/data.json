@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-23T15:46:20.938Z",
+  "generatedAt": "2026-08-23T15:52:21.369Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
-      "totalBrands": 131,
-      "activeCount": 32,
+      "totalBrands": 16,
+      "activeCount": 13,
       "statusCounts": {
         "passed": 1,
         "in communication": 4,
@@ -22,21 +22,21 @@
       "agingBrands": [],
       "isAging": false,
       "kpis": {
-        "meetingsCount": 98,
-        "newBitesThisMonth": 6,
-        "newBitesPriorMonth": 3,
+        "meetingsCount": 1,
+        "newBitesThisMonth": 4,
+        "newBitesPriorMonth": 1,
         "bitesHaveData": true,
         "paidCount": 0,
         "paidValueTotal": 0,
-        "giftedCount": 0,
+        "giftedCount": 1,
         "giftedValueTotal": 0,
-        "unpaidCount": 0,
-        "affiliateCount": 0
+        "unpaidCount": 1,
+        "affiliateCount": 1
       },
       "funnel": {
-        "bites": 112,
-        "meetings": 98,
-        "landed": 98
+        "bites": 12,
+        "meetings": 1,
+        "landed": 3
       },
       "trend": [
         {
@@ -68,7 +68,7 @@
       "ytd": {
         "valueLanded": 0,
         "avgPaidDeal": 0,
-        "unpaidOpps": 0
+        "unpaidOpps": 1
       },
       "stageLabels": {
         "pending approval": "Pending Approval",
@@ -95,18 +95,18 @@
         "passed": 20,
         "initial outreach": 14,
         "pending approval": 23,
-        "gifting secured": 2,
-        "client deals": 18,
+        "gifted": 2,
+        "active partnership": 18,
         "in communication": 5,
         "complete": 225,
-        "affiliate partners": 9,
-        "active partnership": 5
+        "affiliate": 9,
+        "paid deals": 5
       },
-      "lastActivityAt": 1787349462402,
+      "lastActivityAt": 1787500242803,
       "agingBrands": [
         {
           "name": "Tula",
-          "status": "affiliate partners",
+          "status": "affiliate",
           "daysSince": 113
         },
         {
@@ -207,7 +207,7 @@
       ],
       "isAging": true,
       "kpis": {
-        "meetingsCount": 259,
+        "meetingsCount": 243,
         "newBitesThisMonth": 0,
         "newBitesPriorMonth": 0,
         "bitesHaveData": true,
@@ -219,9 +219,9 @@
         "affiliateCount": 1
       },
       "funnel": {
-        "bites": 292,
-        "meetings": 259,
-        "landed": 259
+        "bites": 276,
+        "meetings": 243,
+        "landed": 243
       },
       "trend": [
         {
@@ -276,7 +276,7 @@
       "totalBrands": 28,
       "activeCount": 27,
       "statusCounts": {
-        "gifting secured": 7,
+        "gifted": 7,
         "initial outreach": 9,
         "follow up": 3,
         "pending approval": 8,
@@ -317,7 +317,7 @@
       ],
       "isAging": true,
       "kpis": {
-        "meetingsCount": 7,
+        "meetingsCount": 0,
         "newBitesThisMonth": 1,
         "newBitesPriorMonth": 2,
         "bitesHaveData": true,
@@ -329,9 +329,9 @@
         "affiliateCount": 1
       },
       "funnel": {
-        "bites": 19,
-        "meetings": 7,
-        "landed": 7
+        "bites": 12,
+        "meetings": 0,
+        "landed": 0
       },
       "trend": [
         {
