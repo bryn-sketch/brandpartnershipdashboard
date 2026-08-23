@@ -1,0 +1,9 @@
+{
+  "name": "brand-partnership-dashboard",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build-data.mjs"
+  }
+}

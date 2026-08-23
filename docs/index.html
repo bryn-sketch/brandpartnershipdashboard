@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partnership Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600;6..96,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#26262b; --muted:#6b6b73; --line:#e7e7e9; --bg:#ffffff; --shell:#f7f7f6;
+    --charcoal:#3f3f46; --green:#5fa877; --green-pill:#cfe8d4;
+    --pink:#f6dade; --mint:#d7ecdb; --peach:#f8ddc2; --lilac:#e0dcf3; --sky:#cfe3f6; --accent-line:#b9d3bf;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--shell);line-height:1.5;padding:22px}
+  .wrap{max-width:1160px;margin:0 auto}
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+  .topbar h1{font-family:'Bodoni Moda',serif;font-weight:700;font-size:22px}
+  .pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:5px 12px;border-radius:20px;background:var(--sky);color:#2a5578}
+  .pill.stale{background:var(--peach);color:#8a5a1f}
+  .btn{border:1px solid var(--line);background:var(--bg);border-radius:9px;padding:9px 14px;font-size:13px;font-weight:600;color:var(--ink);cursor:pointer}
+  .btn:hover{background:var(--shell)}
+
+  .card{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin-bottom:16px}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);margin-bottom:2px}
+  .sub{font-size:13px;color:var(--muted)}
+
+  .banner{background:linear-gradient(90deg,#f2f5ef 0%,#eef2ea 55%,#e8ebe4 100%);border:1px solid var(--line);border-radius:14px;padding:38px 40px;margin-bottom:16px;position:relative;overflow:hidden}
+  .banner h1{font-family:'Bodoni Moda',serif;font-weight:700;font-size:clamp(30px,5.2vw,58px);line-height:.95;letter-spacing:.01em;color:#1f2420}
+  .banner p{margin-top:14px;color:#5a6157;max-width:560px;font-size:14px}
+  .seal{position:absolute;right:34px;top:50%;transform:translateY(-50%);width:92px;height:92px;border-radius:50%;border:1.5px solid var(--accent-line);display:flex;align-items:center;justify-content:center;font-family:'Bodoni Moda',serif;font-size:11px;letter-spacing:.16em;color:#6f7b6c;text-align:center}
+  @media(max-width:640px){.seal{display:none}}
+
+  table{width:100%;border-collapse:collapse;font-size:13px;margin-top:14px}
+  thead th{text-align:left;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 10px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+  thead th.r,tbody td.r{text-align:right}
+  tbody td{padding:12px 10px;border-bottom:1px solid #f1f1f2;vertical-align:middle}
+  tbody tr:last-child td{border-bottom:none}
+  .acct{font-weight:600}
+  .badge{display:inline-block;font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;margin-right:4px;white-space:nowrap}
+  .b-active{background:#eef0f2;color:#5a5f66}
+  .b-meetings{background:var(--lilac);color:#4b4590}
+  .b-landed{background:var(--green-pill);color:#2f6b45}
+  .flag{color:#b0762a;font-weight:600}
+  .ok{color:var(--muted)}
+
+  .client{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin-bottom:16px}
+  .chead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:16px}
+  .chead h2{font-family:'Bodoni Moda',serif;font-weight:600;font-size:24px}
+  .chead .meta{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--muted)}
+
+  .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:8px}
+  @media(max-width:980px){.kpis{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+  .kpi{border:1px solid var(--line);border-radius:11px;padding:13px 14px}
+  .kpi .tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:5px;margin-bottom:9px}
+  .kpi .num{font-family:'Bodoni Moda',serif;font-size:28px;font-weight:600;line-height:1}
+  .kpi .lbl{font-size:11px;color:var(--muted);margin-top:5px}
+  .kpi .val{font-size:11px;color:var(--green);font-weight:600;margin-top:2px}
+  .t-pink{background:var(--pink)} .t-mint{background:var(--mint)} .t-peach{background:var(--peach)} .t-lilac{background:var(--lilac)} .t-green{background:var(--green-pill)} .t-sky{background:var(--sky)}
+  .kpi-note{font-size:11px;color:var(--muted);margin:6px 0 18px}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  @media(max-width:820px){.grid2{grid-template-columns:1fr}}
+  .mini{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+
+  .frow{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+  .frow .fl{width:110px;font-size:12px;color:var(--muted);flex:none}
+  .fbar{height:26px;border-radius:6px;display:flex;align-items:center;padding:0 11px;color:#26332a;font-weight:600;font-size:12px;min-width:28px}
+  .fconv{font-size:11px;color:var(--muted);margin:2px 0 6px;padding-left:120px}
+
+  .trend{display:flex;align-items:flex-end;gap:10px;height:120px;padding:0 2px}
+  .tcol{flex:1;display:flex;flex-direction:column;align-items:center;gap:7px;height:100%;justify-content:flex-end}
+  .tbar{width:64%;background:var(--green);border-radius:5px 5px 0 0;position:relative;min-height:4px}
+  .tbar span{position:absolute;top:-17px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:600;color:var(--ink);white-space:nowrap}
+  .tmonth{font-size:10.5px;color:var(--muted)}
+  .empty-note{font-size:12px;color:var(--muted);font-style:italic;padding:20px 0}
+
+  .ytd{margin-top:18px;border-top:1px solid var(--line);padding-top:14px;font-size:13px;color:var(--muted);display:flex;gap:26px;flex-wrap:wrap}
+  .ytd b{color:var(--ink)}
+
+  .aging-list{margin-top:10px;font-size:12px;color:#8a5a1f}
+  .aging-list span{display:inline-block;margin-right:14px}
+
+  footer{text-align:center;font-size:12px;color:var(--muted);margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <h1>UPLVL Partnership Dashboard</h1>
+    <div style="display:flex;align-items:center;gap:10px">
+      <span class="pill" id="status-pill">Loading…</span>
+      <button class="btn" id="refresh-btn">Refresh data</button>
+    </div>
+  </div>
+
+  <div class="banner">
+    <h1>PARTNERSHIP<br>DASHBOARD</h1>
+    <p>A per-client pulse on every partnership account — meetings, new conversations, and the paid, gifted, and unpaid opportunities each client is landing. All numbers are per client; nothing here is summed across clients.</p>
+    <div class="seal">EST.<br>UPLVL</div>
+  </div>
+
+  <div class="card">
+    <div class="eyebrow">At a glance</div>
+    <div class="sub">Every client's current pipeline snapshot and last activity — the quick scan for anything going quiet.</div>
+    <table>
+      <thead><tr><th>Client</th><th>Pipeline</th><th class="r">Last activity</th></tr></thead>
+      <tbody id="roster-body"></tbody>
+    </table>
+  </div>
+
+  <div id="clients"></div>
+
+  <footer>Data pulled nightly from ClickUp · UL ROSTER space</footer>
+</div>
+
+<script>
+const money = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n || 0);
+const daysAgo = (ms) => {
+  if (!ms) return null;
+  return Math.floor((Date.now() - ms) / 86400000);
+};
+const fmtAgo = (ms) => {
+  const d = daysAgo(ms);
+  if (d === null) return '—';
+  if (d <= 0) return 'today';
+  if (d === 1) return '1 day ago';
+  return `${d} days ago`;
+};
+
+function renderRoster(clients) {
+  const body = document.getElementById('roster-body');
+  body.innerHTML = clients.map(c => `
+    <tr>
+      <td class="acct">${c.name}</td>
+      <td>
+        <span class="badge b-active">${c.activeCount} active</span>
+        <span class="badge b-meetings">${c.kpis.meetingsCount} meetings+</span>
+        <span class="badge b-landed">${c.funnel.landed} landed</span>
+      </td>
+      <td class="r ${c.isAging ? 'flag' : 'ok'}">${fmtAgo(c.lastActivityAt)}${c.isAging ? ` ⚑ ${c.agingBrands.length} stale` : ''}</td>
+    </tr>
+  `).join('');
+}
+
+function renderFunnel(f) {
+  const max = f.bites || 1;
+  const pct = (n) => Math.max(Math.round((n / max) * 100), n > 0 ? 6 : 0);
+  const conv = (n) => f.bites > 0 ? Math.round((n / f.bites) * 100) : 0;
+  return `
+    <div class="mini">Conversion funnel · current pipeline</div>
+    <div class="frow"><div class="fl">Bites</div><div class="fbar" style="width:${pct(f.bites)}%;background:var(--lilac)">${f.bites}</div></div>
+    <div class="frow"><div class="fl">Meetings</div><div class="fbar" style="width:${pct(f.meetings)}%;background:var(--sky)">${f.meetings}</div></div>
+    <div class="fconv">${conv(f.meetings)}% of bites reached a meeting</div>
+    <div class="frow"><div class="fl">Landed</div><div class="fbar" style="width:${pct(f.landed)}%;background:var(--green-pill)">${f.landed}</div></div>
+    <div class="fconv">${conv(f.landed)}% of bites landed (any type)</div>
+  `;
+}
+
+function renderTrend(trend, hasData) {
+  if (!hasData) {
+    return `<div class="mini">Paid value landed · by month</div><div class="empty-note">No Deal Closed Date + Paid Value logged yet — this fills in once your team records deal-closed dates in ClickUp.</div>`;
+  }
+  const max = Math.max(...trend.map(t => t.value), 1);
+  return `
+    <div class="mini">Paid value landed · by month</div>
+    <div class="trend">
+      ${trend.map(t => `
+        <div class="tcol">
+          <div class="tbar" style="height:${Math.max(Math.round((t.value / max) * 100), t.value > 0 ? 6 : 2)}%">
+            <span>${t.value > 0 ? money(t.value) : ''}</span>
+          </div>
+          <div class="tmonth">${t.label}</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderClient(c) {
+  const k = c.kpis;
+  const bitesNote = k.bitesHaveData
+    ? `▲ ${k.newBitesThisMonth - k.newBitesPriorMonth >= 0 ? '+' : ''}${k.newBitesThisMonth - k.newBitesPriorMonth} vs last month`
+    : 'no dates logged yet';
+  return `
+    <div class="client">
+      <div class="chead">
+        <h2>${c.name}</h2>
+        <div class="meta">${c.totalBrands} brands tracked · last activity <b style="color:var(--ink)">${fmtAgo(c.lastActivityAt)}</b>${c.isAging ? ' <span class="flag">⚑ aging</span>' : ''}</div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><span class="tag t-lilac">Meetings</span><div class="num">${k.meetingsCount}</div><div class="lbl">current pipeline, reached or beyond</div></div>
+        <div class="kpi"><span class="tag t-mint">New bites</span><div class="num">${k.newBitesThisMonth}</div><div class="lbl">this month</div><div class="val">${bitesNote}</div></div>
+        <div class="kpi"><span class="tag t-pink">Paid deals</span><div class="num">${k.paidCount}</div><div class="lbl">landed</div><div class="val">${money(k.paidValueTotal)}</div></div>
+        <div class="kpi"><span class="tag t-peach">Gifted</span><div class="num">${k.giftedCount}</div><div class="lbl">landed</div><div class="val">${money(k.giftedValueTotal)}</div></div>
+        <div class="kpi"><span class="tag t-sky">Affiliate</span><div class="num">${k.affiliateCount}</div><div class="lbl">active affiliates</div></div>
+        <div class="kpi"><span class="tag t-green">Unpaid</span><div class="num">${k.unpaidCount}</div><div class="lbl">events / speaking</div></div>
+      </div>
+      <div class="kpi-note">Meetings is a live pipeline count (ClickUp has no "meeting booked" date to trend month-over-month). Paid/Gifted/Affiliate/Unpaid only count brands with an explicit Partnership Type set in ClickUp.</div>
+      <div class="grid2">
+        <div>${renderFunnel(c.funnel)}</div>
+        <div>${renderTrend(c.trend, c.trendHasData)}</div>
+      </div>
+      <div class="ytd">
+        <span>YTD value landed &nbsp;<b>${money(c.ytd.valueLanded)}</b></span>
+        <span>Avg. paid deal &nbsp;<b>${money(c.ytd.avgPaidDeal)}</b></span>
+        <span>Unpaid opps YTD &nbsp;<b>${c.ytd.unpaidOpps}</b></span>
+      </div>
+      ${c.agingBrands.length ? `<div class="aging-list">⚑ Aging 3+ weeks: ${c.agingBrands.slice(0, 8).map(a => `<span>${a.name} (${a.daysSince}d)</span>`).join('')}${c.agingBrands.length > 8 ? `<span>+${c.agingBrands.length - 8} more</span>` : ''}</div>` : ''}
+    </div>
+  `;
+}
+
+async function load() {
+  const pill = document.getElementById('status-pill');
+  pill.textContent = 'Loading…';
+  try {
+    const res = await fetch(`./data.json?_=${Date.now()}`);
+    const data = await res.json();
+    renderRoster(data.clients);
+    document.getElementById('clients').innerHTML = data.clients.map(renderClient).join('');
+    const generated = new Date(data.generatedAt);
+    const stale = (Date.now() - generated.getTime()) > 1000 * 60 * 60 * 30;
+    pill.textContent = `Data as of ${generated.toLocaleString()}`;
+    pill.classList.toggle('stale', stale);
+  } catch (e) {
+    pill.textContent = 'Failed to load data.json';
+    pill.classList.add('stale');
+    console.error(e);
+  }
+}
+
+document.getElementById('refresh-btn').addEventListener('click', load);
+load();
+</script>
+</body>
+</html>
