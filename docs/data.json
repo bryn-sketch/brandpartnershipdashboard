@@ -1,14 +1,30 @@
 {
-  "generatedAt": "2026-08-23T15:16:46.001Z",
+  "generatedAt": "2026-08-23T15:28:17.576Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
       "totalBrands": 131,
       "activeCount": 32,
-      "lastActivityAt": 1787349733416,
-      "agingBrands": [],
-      "isAging": false,
+      "lastActivityAt": 1787349743007,
+      "agingBrands": [
+        {
+          "name": "Fast Company Innovation Festival",
+          "status": "follow up",
+          "daysSince": 71
+        },
+        {
+          "name": "Melissa Wood Health",
+          "status": "follow up",
+          "daysSince": 59
+        },
+        {
+          "name": "UCLA Class Guest Speaker",
+          "status": "client meeting booked",
+          "daysSince": 27
+        }
+      ],
+      "isAging": true,
       "kpis": {
         "meetingsCount": 101,
         "newBitesThisMonth": 0,
@@ -81,6 +97,56 @@
       "lastActivityAt": 1787349462402,
       "agingBrands": [
         {
+          "name": "Tula",
+          "status": "affiliate partners",
+          "daysSince": 113
+        },
+        {
+          "name": "Fisher-Price",
+          "status": "pending approval",
+          "daysSince": 51
+        },
+        {
+          "name": "LeapFrog",
+          "status": "pending approval",
+          "daysSince": 51
+        },
+        {
+          "name": "MindWare",
+          "status": "pending approval",
+          "daysSince": 51
+        },
+        {
+          "name": "eeBoo",
+          "status": "pending approval",
+          "daysSince": 51
+        },
+        {
+          "name": "Yumbox",
+          "status": "pending approval",
+          "daysSince": 43
+        },
+        {
+          "name": "Inchbug",
+          "status": "pending approval",
+          "daysSince": 43
+        },
+        {
+          "name": "Calpak",
+          "status": "pending approval",
+          "daysSince": 43
+        },
+        {
+          "name": "Lunchskins",
+          "status": "pending approval",
+          "daysSince": 43
+        },
+        {
+          "name": "PlanetBox",
+          "status": "pending approval",
+          "daysSince": 43
+        },
+        {
           "name": "Conservancy of Southwest Florida",
           "status": "pending approval",
           "daysSince": 36
@@ -136,13 +202,13 @@
         "meetingsCount": 259,
         "newBitesThisMonth": 0,
         "newBitesPriorMonth": 0,
-        "bitesHaveData": false,
-        "paidCount": 13,
-        "paidValueTotal": 0,
-        "giftedCount": 0,
-        "giftedValueTotal": 0,
+        "bitesHaveData": true,
+        "paidCount": 22,
+        "paidValueTotal": 27000,
+        "giftedCount": 3,
+        "giftedValueTotal": 10847,
         "unpaidCount": 0,
-        "affiliateCount": 0
+        "affiliateCount": 1
       },
       "funnel": {
         "bites": 292,
@@ -164,7 +230,7 @@
         },
         {
           "label": "Jun",
-          "value": 0
+          "value": 4000
         },
         {
           "label": "Jul",
@@ -172,13 +238,13 @@
         },
         {
           "label": "Aug",
-          "value": 0
+          "value": 8000
         }
       ],
-      "trendHasData": false,
+      "trendHasData": true,
       "ytd": {
-        "valueLanded": 0,
-        "avgPaidDeal": 0,
+        "valueLanded": 19767,
+        "avgPaidDeal": 4000,
         "unpaidOpps": 0
       },
       "stageLabels": {
@@ -299,6 +365,5 @@
         "passed": "Passed"
       }
     }
-  ],
-  "preview": true
+  ]
 }
