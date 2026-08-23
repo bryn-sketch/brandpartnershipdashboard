@@ -95,6 +95,14 @@ export function computeClientMetrics(client, rawTasks, now = new Date()) {
   }
   agingBrands.sort((a, b) => b.daysSince - a.daysSince);
 
+  // Raw status distribution — useful for confirming ClickUp's actual status
+  // vocabulary matches what config.mjs expects, since ClickUp lets each list's
+  // statuses be renamed independently at any time.
+  const statusCounts = {};
+  for (const t of enriched) {
+    statusCounts[t.status] = (statusCounts[t.status] || 0) + 1;
+  }
+
   const activeCount = enriched.filter((t) => t.status !== "complete" && t.status !== "passed").length;
   const meetingsCount = enriched.filter((t) => t.rank >= MEETING_MIN_RANK).length;
   const landedCount = enriched.filter((t) => LANDED_STATUSES.has(t.status)).length;
@@ -161,6 +169,7 @@ export function computeClientMetrics(client, rawTasks, now = new Date()) {
     name: client.name,
     totalBrands: enriched.length,
     activeCount,
+    statusCounts,
     lastActivityAt: mostRecentUpdate,
     agingBrands,
     isAging: agingBrands.length > 0,
