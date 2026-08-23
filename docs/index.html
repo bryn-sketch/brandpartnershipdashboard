@@ -104,6 +104,7 @@
             <th class="c"><span class="underline" style="background:var(--sky-text)"></span>Affiliate</th>
             <th class="c"><span class="underline" style="background:var(--mint-text)"></span>Unpaid</th>
             <th class="c"><span class="underline" style="background:var(--green-text)"></span>Landed</th>
+            <th class="r"><span class="underline" style="background:var(--ink);margin-left:auto"></span>Total landed value</th>
             <th class="r">Last activity</th>
           </tr>
         </thead>
@@ -179,6 +180,7 @@ function renderRoster(clients) {
       <td class="c">${cell(k.affiliateCount, 'n-sky')}</td>
       <td class="c">${cell(k.unpaidCount, 'n-mint')}</td>
       <td class="c">${cell(c.funnel.landed, 'n-green')}</td>
+      <td class="r num-c">${money(k.paidValueTotal + k.giftedValueTotal)}</td>
       <td class="r ${c.isAging ? 'flag' : 'ok'}">${fmtAgo(c.lastActivityAt)}${c.isAging ? ` ⚑ ${c.agingBrands.length} stale` : ''}</td>
     </tr>
   `;
