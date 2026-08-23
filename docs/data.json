@@ -1,0 +1,304 @@
+{
+  "generatedAt": "2026-08-23T15:16:46.001Z",
+  "clients": [
+    {
+      "slug": "vadali",
+      "name": "Dr. Sirisha Vadali, Vadali MD",
+      "totalBrands": 131,
+      "activeCount": 32,
+      "lastActivityAt": 1787349733416,
+      "agingBrands": [],
+      "isAging": false,
+      "kpis": {
+        "meetingsCount": 101,
+        "newBitesThisMonth": 0,
+        "newBitesPriorMonth": 0,
+        "bitesHaveData": false,
+        "paidCount": 0,
+        "paidValueTotal": 0,
+        "giftedCount": 0,
+        "giftedValueTotal": 0,
+        "unpaidCount": 0,
+        "affiliateCount": 0
+      },
+      "funnel": {
+        "bites": 116,
+        "meetings": 101,
+        "landed": 100
+      },
+      "trend": [
+        {
+          "label": "Mar",
+          "value": 0
+        },
+        {
+          "label": "Apr",
+          "value": 0
+        },
+        {
+          "label": "May",
+          "value": 0
+        },
+        {
+          "label": "Jun",
+          "value": 0
+        },
+        {
+          "label": "Jul",
+          "value": 0
+        },
+        {
+          "label": "Aug",
+          "value": 0
+        }
+      ],
+      "trendHasData": false,
+      "ytd": {
+        "valueLanded": 0,
+        "avgPaidDeal": 0,
+        "unpaidOpps": 0
+      },
+      "stageLabels": {
+        "pending approval": "Pending Approval",
+        "initial outreach": "Initial Outreach",
+        "follow up": "Follow Up",
+        "in communication": "In Communication",
+        "client meeting booked": "Client Meeting Booked",
+        "gifting secured": "Sending Product",
+        "affiliate partners": "Current Affiliate Partner",
+        "client deals": "Client Deals",
+        "deal secured": "Deal Secured",
+        "active partnership": "Active Partnership",
+        "complete": "Campaign Completed",
+        "passed": "Passed"
+      }
+    },
+    {
+      "slug": "jordyn",
+      "name": "Jordyn Koveleski Gorman, Eat Play Say",
+      "totalBrands": 335,
+      "activeCount": 90,
+      "lastActivityAt": 1787349462402,
+      "agingBrands": [
+        {
+          "name": "Conservancy of Southwest Florida",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Splash About",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Freshly Picked",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "STEP2",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Dabble",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Bogg Bag",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Zak",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Sun-N-Fun Lagoon",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Paradise Coast",
+          "status": "pending approval",
+          "daysSince": 36
+        },
+        {
+          "name": "Simple Modern",
+          "status": "pending approval",
+          "daysSince": 36
+        }
+      ],
+      "isAging": true,
+      "kpis": {
+        "meetingsCount": 259,
+        "newBitesThisMonth": 0,
+        "newBitesPriorMonth": 0,
+        "bitesHaveData": false,
+        "paidCount": 13,
+        "paidValueTotal": 0,
+        "giftedCount": 0,
+        "giftedValueTotal": 0,
+        "unpaidCount": 0,
+        "affiliateCount": 0
+      },
+      "funnel": {
+        "bites": 292,
+        "meetings": 259,
+        "landed": 259
+      },
+      "trend": [
+        {
+          "label": "Mar",
+          "value": 0
+        },
+        {
+          "label": "Apr",
+          "value": 0
+        },
+        {
+          "label": "May",
+          "value": 0
+        },
+        {
+          "label": "Jun",
+          "value": 0
+        },
+        {
+          "label": "Jul",
+          "value": 0
+        },
+        {
+          "label": "Aug",
+          "value": 0
+        }
+      ],
+      "trendHasData": false,
+      "ytd": {
+        "valueLanded": 0,
+        "avgPaidDeal": 0,
+        "unpaidOpps": 0
+      },
+      "stageLabels": {
+        "pending approval": "Pending Approval",
+        "initial outreach": "Initial Outreach",
+        "follow up": "Follow Up",
+        "in communication": "In Communication",
+        "client meeting booked": "Client Meeting Booked",
+        "gifting secured": "Sending Product",
+        "affiliate partners": "Current Affiliate Partner",
+        "client deals": "Client Deals",
+        "deal secured": "Deal Secured",
+        "active partnership": "Active Partnership",
+        "complete": "Campaign Completed",
+        "passed": "Passed"
+      }
+    },
+    {
+      "slug": "michele",
+      "name": "Michele Williams, HomeCareCoaching",
+      "totalBrands": 28,
+      "activeCount": 27,
+      "lastActivityAt": 1787249554080,
+      "agingBrands": [
+        {
+          "name": "AARP",
+          "status": "pending approval",
+          "daysSince": 44
+        },
+        {
+          "name": "Phillips",
+          "status": "pending approval",
+          "daysSince": 38
+        },
+        {
+          "name": "Square",
+          "status": "pending approval",
+          "daysSince": 38
+        },
+        {
+          "name": "Bank of America",
+          "status": "pending approval",
+          "daysSince": 38
+        },
+        {
+          "name": "Visa",
+          "status": "pending approval",
+          "daysSince": 38
+        },
+        {
+          "name": "LLume Jewelry",
+          "status": "pending approval",
+          "daysSince": 38
+        }
+      ],
+      "isAging": true,
+      "kpis": {
+        "meetingsCount": 7,
+        "newBitesThisMonth": 1,
+        "newBitesPriorMonth": 2,
+        "bitesHaveData": true,
+        "paidCount": 0,
+        "paidValueTotal": 0,
+        "giftedCount": 6,
+        "giftedValueTotal": 15350,
+        "unpaidCount": 0,
+        "affiliateCount": 1
+      },
+      "funnel": {
+        "bites": 19,
+        "meetings": 7,
+        "landed": 7
+      },
+      "trend": [
+        {
+          "label": "Mar",
+          "value": 0
+        },
+        {
+          "label": "Apr",
+          "value": 0
+        },
+        {
+          "label": "May",
+          "value": 0
+        },
+        {
+          "label": "Jun",
+          "value": 0
+        },
+        {
+          "label": "Jul",
+          "value": 0
+        },
+        {
+          "label": "Aug",
+          "value": 0
+        }
+      ],
+      "trendHasData": false,
+      "ytd": {
+        "valueLanded": 0,
+        "avgPaidDeal": 0,
+        "unpaidOpps": 0
+      },
+      "stageLabels": {
+        "pending approval": "Pending Approval",
+        "initial outreach": "Initial Outreach",
+        "follow up": "Follow Up",
+        "in communication": "In Communication",
+        "client meeting booked": "Client Meeting Booked",
+        "gifting secured": "Sending Product",
+        "affiliate partners": "Current Affiliate Partner",
+        "client deals": "Client Deals",
+        "deal secured": "Deal Secured",
+        "active partnership": "Active Partnership",
+        "complete": "Campaign Completed",
+        "passed": "Passed"
+      }
+    }
+  ],
+  "preview": true
+}
