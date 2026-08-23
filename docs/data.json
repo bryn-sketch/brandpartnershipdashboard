@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-08-23T15:44:53.775Z",
+  "generatedAt": "2026-08-23T15:46:20.938Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
       "totalBrands": 131,
       "activeCount": 32,
+      "statusCounts": {
+        "passed": 1,
+        "in communication": 4,
+        "follow up": 8,
+        "meetings": 1,
+        "complete": 98,
+        "initial outreach": 2,
+        "pending approval": 14,
+        "gifted": 1,
+        "unpaid": 1,
+        "affiliate": 1
+      },
       "lastActivityAt": 1787499815652,
       "agingBrands": [],
       "isAging": false,
@@ -78,6 +90,18 @@
       "name": "Jordyn Koveleski Gorman, Eat Play Say",
       "totalBrands": 335,
       "activeCount": 90,
+      "statusCounts": {
+        "follow up": 14,
+        "passed": 20,
+        "initial outreach": 14,
+        "pending approval": 23,
+        "gifting secured": 2,
+        "client deals": 18,
+        "in communication": 5,
+        "complete": 225,
+        "affiliate partners": 9,
+        "active partnership": 5
+      },
       "lastActivityAt": 1787349462402,
       "agingBrands": [
         {
@@ -251,6 +275,13 @@
       "name": "Michele Williams, HomeCareCoaching",
       "totalBrands": 28,
       "activeCount": 27,
+      "statusCounts": {
+        "gifting secured": 7,
+        "initial outreach": 9,
+        "follow up": 3,
+        "pending approval": 8,
+        "passed": 1
+      },
       "lastActivityAt": 1787249554080,
       "agingBrands": [
         {
