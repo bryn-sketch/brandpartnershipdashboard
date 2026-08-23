@@ -30,12 +30,28 @@ export const CLIENTS = [
     name: "Jordyn Koveleski Gorman, Eat Play Say",
     folderId: "90116406037",
     listId: "901112785638",
+    statusBuckets: {
+      bites: ["follow up", "in communication"],
+      meetings: ["meetings"],
+      gifted: ["gifted"],
+      affiliate: ["affiliate"],
+      unpaid: ["unpaid"],
+      paid: ["paid"],
+    },
   },
   {
     slug: "michele",
     name: "Michele Williams, HomeCareCoaching",
     folderId: "90118081829",
     listId: "901114006454",
+    statusBuckets: {
+      bites: ["follow up", "in communication"],
+      meetings: ["meetings"],
+      gifted: ["gifted"],
+      affiliate: ["affiliate"],
+      unpaid: ["unpaid"],
+      paid: ["paid"],
+    },
   },
 ];
 
