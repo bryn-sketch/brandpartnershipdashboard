@@ -190,7 +190,7 @@ function computeBucketedMetrics(client, enriched, now) {
   const ytdValueLanded = ytdPaid.reduce((s, t) => s + t.paidValue, 0) + ytdGifted.reduce((s, t) => s + t.giftedValue, 0);
   const avgPaidDeal = ytdPaid.length > 0 ? ytdPaid.reduce((s, t) => s + t.paidValue, 0) / ytdPaid.length : 0;
 
-  const campaignStartAt = findCampaignStart(enriched);
+  const campaignStartAt = findCampaignStart(enriched) ?? client.campaignStartFallback ?? null;
 
   return {
     slug: client.slug,
@@ -268,7 +268,7 @@ function computeLegacyMetrics(client, enriched, now) {
   }
   const avgPaidDeal = ytdPaidDealCount > 0 ? ytdPaidValueSum / ytdPaidDealCount : 0;
 
-  const campaignStartAt = findCampaignStart(enriched);
+  const campaignStartAt = findCampaignStart(enriched) ?? client.campaignStartFallback ?? null;
 
   return {
     slug: client.slug,

@@ -30,6 +30,9 @@ export const CLIENTS = [
     name: "Jordyn Koveleski Gorman, Eat Play Say",
     folderId: "90116406037",
     listId: "901112785638",
+    // ClickUp's Client Onboarding Date field isn't filled in on this list yet;
+    // used only until it is (that field always wins once set).
+    campaignStartFallback: Date.UTC(2026, 0, 14),
     statusBuckets: {
       bites: ["follow up", "in communication"],
       meetings: ["meetings"],
@@ -44,6 +47,9 @@ export const CLIENTS = [
     name: "Michele Williams, HomeCareCoaching",
     folderId: "90118081829",
     listId: "901114006454",
+    // ClickUp's Client Onboarding Date field isn't filled in on this list yet;
+    // used only until it is (that field always wins once set).
+    campaignStartFallback: Date.UTC(2026, 6, 6),
     statusBuckets: {
       bites: ["follow up", "in communication"],
       meetings: ["meetings"],
