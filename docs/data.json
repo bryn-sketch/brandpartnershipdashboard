@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:24:47.560Z",
+  "generatedAt": "2026-08-23T17:26:48.348Z",
   "clients": [
     {
       "slug": "vadali",
@@ -106,8 +106,8 @@
         "affiliate": 9,
         "paid": 5
       },
-      "campaignStartAt": null,
-      "monthsActive": null,
+      "campaignStartAt": 1768348800000,
+      "monthsActive": 7.3,
       "lastActivityAt": 1787500242803,
       "agingBrands": [],
       "isAging": false,
@@ -189,8 +189,8 @@
         "pending approval": 8,
         "passed": 1
       },
-      "campaignStartAt": null,
-      "monthsActive": null,
+      "campaignStartAt": 1783296000000,
+      "monthsActive": 1.6,
       "lastActivityAt": 1787503765643,
       "agingBrands": [],
       "isAging": false,
