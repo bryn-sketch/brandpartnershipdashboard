@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T15:52:21.369Z",
+  "generatedAt": "2026-08-23T15:57:48.038Z",
   "clients": [
     {
       "slug": "vadali",
@@ -88,8 +88,8 @@
     {
       "slug": "jordyn",
       "name": "Jordyn Koveleski Gorman, Eat Play Say",
-      "totalBrands": 335,
-      "activeCount": 90,
+      "totalBrands": 30,
+      "activeCount": 19,
       "statusCounts": {
         "follow up": 14,
         "passed": 20,
@@ -103,125 +103,24 @@
         "paid deals": 5
       },
       "lastActivityAt": 1787500242803,
-      "agingBrands": [
-        {
-          "name": "Tula",
-          "status": "affiliate",
-          "daysSince": 113
-        },
-        {
-          "name": "Fisher-Price",
-          "status": "pending approval",
-          "daysSince": 51
-        },
-        {
-          "name": "LeapFrog",
-          "status": "pending approval",
-          "daysSince": 51
-        },
-        {
-          "name": "MindWare",
-          "status": "pending approval",
-          "daysSince": 51
-        },
-        {
-          "name": "eeBoo",
-          "status": "pending approval",
-          "daysSince": 51
-        },
-        {
-          "name": "Yumbox",
-          "status": "pending approval",
-          "daysSince": 43
-        },
-        {
-          "name": "Inchbug",
-          "status": "pending approval",
-          "daysSince": 43
-        },
-        {
-          "name": "Calpak",
-          "status": "pending approval",
-          "daysSince": 43
-        },
-        {
-          "name": "Lunchskins",
-          "status": "pending approval",
-          "daysSince": 43
-        },
-        {
-          "name": "PlanetBox",
-          "status": "pending approval",
-          "daysSince": 43
-        },
-        {
-          "name": "Conservancy of Southwest Florida",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Splash About",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Freshly Picked",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "STEP2",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Dabble",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Bogg Bag",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Zak",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Sun-N-Fun Lagoon",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Paradise Coast",
-          "status": "pending approval",
-          "daysSince": 36
-        },
-        {
-          "name": "Simple Modern",
-          "status": "pending approval",
-          "daysSince": 36
-        }
-      ],
-      "isAging": true,
+      "agingBrands": [],
+      "isAging": false,
       "kpis": {
-        "meetingsCount": 243,
+        "meetingsCount": 0,
         "newBitesThisMonth": 0,
         "newBitesPriorMonth": 0,
-        "bitesHaveData": true,
-        "paidCount": 22,
-        "paidValueTotal": 27000,
-        "giftedCount": 3,
-        "giftedValueTotal": 10847,
+        "bitesHaveData": false,
+        "paidCount": 0,
+        "paidValueTotal": 0,
+        "giftedCount": 2,
+        "giftedValueTotal": 0,
         "unpaidCount": 0,
-        "affiliateCount": 1
+        "affiliateCount": 9
       },
       "funnel": {
-        "bites": 276,
-        "meetings": 243,
-        "landed": 243
+        "bites": 19,
+        "meetings": 0,
+        "landed": 11
       },
       "trend": [
         {
@@ -238,7 +137,7 @@
         },
         {
           "label": "Jun",
-          "value": 4000
+          "value": 0
         },
         {
           "label": "Jul",
@@ -246,13 +145,13 @@
         },
         {
           "label": "Aug",
-          "value": 8000
+          "value": 0
         }
       ],
-      "trendHasData": true,
+      "trendHasData": false,
       "ytd": {
-        "valueLanded": 19767,
-        "avgPaidDeal": 4000,
+        "valueLanded": 0,
+        "avgPaidDeal": 0,
         "unpaidOpps": 0
       },
       "stageLabels": {
@@ -273,8 +172,8 @@
     {
       "slug": "michele",
       "name": "Michele Williams, HomeCareCoaching",
-      "totalBrands": 28,
-      "activeCount": 27,
+      "totalBrands": 10,
+      "activeCount": 3,
       "statusCounts": {
         "gifted": 7,
         "initial outreach": 9,
@@ -283,55 +182,24 @@
         "passed": 1
       },
       "lastActivityAt": 1787249554080,
-      "agingBrands": [
-        {
-          "name": "AARP",
-          "status": "pending approval",
-          "daysSince": 44
-        },
-        {
-          "name": "Phillips",
-          "status": "pending approval",
-          "daysSince": 38
-        },
-        {
-          "name": "Square",
-          "status": "pending approval",
-          "daysSince": 38
-        },
-        {
-          "name": "Bank of America",
-          "status": "pending approval",
-          "daysSince": 38
-        },
-        {
-          "name": "Visa",
-          "status": "pending approval",
-          "daysSince": 38
-        },
-        {
-          "name": "LLume Jewelry",
-          "status": "pending approval",
-          "daysSince": 38
-        }
-      ],
-      "isAging": true,
+      "agingBrands": [],
+      "isAging": false,
       "kpis": {
         "meetingsCount": 0,
-        "newBitesThisMonth": 1,
-        "newBitesPriorMonth": 2,
-        "bitesHaveData": true,
+        "newBitesThisMonth": 0,
+        "newBitesPriorMonth": 0,
+        "bitesHaveData": false,
         "paidCount": 0,
         "paidValueTotal": 0,
-        "giftedCount": 6,
+        "giftedCount": 7,
         "giftedValueTotal": 15350,
         "unpaidCount": 0,
-        "affiliateCount": 1
+        "affiliateCount": 0
       },
       "funnel": {
-        "bites": 12,
+        "bites": 3,
         "meetings": 0,
-        "landed": 0
+        "landed": 7
       },
       "trend": [
         {
