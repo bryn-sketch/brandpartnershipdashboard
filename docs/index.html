@@ -143,6 +143,7 @@ function renderSummary(clients) {
   const affiliateCount = sum(c => c.kpis.affiliateCount);
   const unpaidCount = sum(c => c.kpis.unpaidCount);
   const landed = sum(c => c.funnel.landed);
+  const totalLandedValue = sum(c => c.kpis.totalLandedValue);
 
   const tiles = [
     { color: 'var(--lilac-text)', num: bites, lbl: 'Bites', sub: 'Follow up / in communication' },
@@ -152,7 +153,7 @@ function renderSummary(clients) {
     { color: 'var(--sky-text)', num: affiliateCount, lbl: 'Affiliate', sub: 'Active affiliates' },
     { color: 'var(--mint-text)', num: unpaidCount, lbl: 'Unpaid', sub: 'Events / speaking' },
     { color: 'var(--green-text)', num: landed, lbl: 'Landed', sub: 'Paid + gifted + affiliate + unpaid' },
-    { color: 'var(--ink)', num: money(paidValue + giftedValue), lbl: 'Value landed', sub: 'Paid + gifted, all clients' },
+    { color: 'var(--ink)', num: money(totalLandedValue), lbl: 'Value landed', sub: 'Paid + gifted + affiliate, all clients' },
   ];
 
   document.getElementById('summary-stats').innerHTML = tiles.map(t => `
@@ -180,7 +181,7 @@ function renderRoster(clients) {
       <td class="c">${cell(k.affiliateCount, 'n-sky')}</td>
       <td class="c">${cell(k.unpaidCount, 'n-mint')}</td>
       <td class="c">${cell(c.funnel.landed, 'n-green')}</td>
-      <td class="r num-c">${money(k.paidValueTotal + k.giftedValueTotal)}</td>
+      <td class="r num-c">${money(k.totalLandedValue)}</td>
       <td class="r ${c.isAging ? 'flag' : 'ok'}">${fmtAgo(c.lastActivityAt)}${c.isAging ? ` ⚑ ${c.agingBrands.length} stale` : ''}</td>
     </tr>
   `;

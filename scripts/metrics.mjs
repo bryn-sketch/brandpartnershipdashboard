@@ -158,6 +158,11 @@ function computeBucketedMetrics(client, enriched, now) {
   const bites = bitesByMonthTrend(bitesTasks, now, (t) => t.conversationStart);
   const giftedValueTotal = giftedTasks.reduce((sum, t) => sum + t.giftedValue, 0);
   const paidValueTotal = paidTasks.reduce((sum, t) => sum + t.paidValue, 0);
+  // A task's dollar amount can live in either the Paid Value or Gifted Value
+  // field regardless of which bucket it's in (e.g. an affiliate commission
+  // logged under Paid Value), so the combined total sums both fields across
+  // every landed task rather than assuming which field a given bucket uses.
+  const totalLandedValue = landedTasks.reduce((sum, t) => sum + t.paidValue + t.giftedValue, 0);
 
   const { trend, hasData: trendHasData } = valueByMonthTrend(paidTasks, now, (t) => t.dealClosed, (t) => t.paidValue);
 
@@ -187,6 +192,7 @@ function computeBucketedMetrics(client, enriched, now) {
       giftedValueTotal,
       unpaidCount: unpaidTasks.length,
       affiliateCount: affiliateTasks.length,
+      totalLandedValue,
     },
     funnel: { bites: bitesTasks.length, meetings: meetingsTasks.length, landed: landedTasks.length },
     funnelMode: "buckets",
@@ -224,6 +230,9 @@ function computeLegacyMetrics(client, enriched, now) {
   }
 
   const { trend, hasData: trendHasData } = valueByMonthTrend(enriched, now, (t) => t.dealClosed, (t) => t.paidValue);
+  const totalLandedValue = enriched
+    .filter((t) => LANDED_STATUSES.has(t.status))
+    .reduce((sum, t) => sum + t.paidValue + t.giftedValue, 0);
 
   const currentYear = now.getUTCFullYear();
   let ytdValueLanded = 0, ytdPaidDealCount = 0, ytdPaidValueSum = 0;
@@ -257,6 +266,7 @@ function computeLegacyMetrics(client, enriched, now) {
       giftedValueTotal,
       unpaidCount,
       affiliateCount,
+      totalLandedValue,
     },
     funnel: { bites: bitesCount, meetings: meetingsCount, landed: landedCount },
     funnelMode: "legacy",
