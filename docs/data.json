@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:58:35.730Z",
+  "generatedAt": "2026-08-25T10:17:15.414Z",
   "clients": [
     {
       "slug": "vadali",
@@ -95,8 +95,8 @@
       "totalBrands": 35,
       "activeCount": 19,
       "statusCounts": {
+        "passed": 21,
         "follow up": 14,
-        "passed": 20,
         "initial outreach": 14,
         "pending approval": 23,
         "gifted": 2,
@@ -108,7 +108,7 @@
       },
       "campaignStartAt": 1768348800000,
       "monthsActive": 7.3,
-      "lastActivityAt": 1787500242803,
+      "lastActivityAt": 1787608136711,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -183,15 +183,15 @@
       "totalBrands": 10,
       "activeCount": 3,
       "statusCounts": {
+        "pending approval": 10,
+        "initial outreach": 10,
         "gifted": 7,
-        "initial outreach": 9,
         "follow up": 3,
-        "pending approval": 8,
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
-      "monthsActive": 1.6,
-      "lastActivityAt": 1787503765643,
+      "monthsActive": 1.7,
+      "lastActivityAt": 1787583862134,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -202,10 +202,10 @@
         "paidCount": 0,
         "paidValueTotal": 0,
         "giftedCount": 7,
-        "giftedValueTotal": 350,
+        "giftedValueTotal": 650,
         "unpaidCount": 0,
         "affiliateCount": 0,
-        "totalLandedValue": 350
+        "totalLandedValue": 650
       },
       "funnel": {
         "bites": 3,
