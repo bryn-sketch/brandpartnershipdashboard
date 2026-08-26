@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T10:17:15.414Z",
+  "generatedAt": "2026-08-26T10:55:03.972Z",
   "clients": [
     {
       "slug": "vadali",
@@ -95,9 +95,9 @@
       "totalBrands": 35,
       "activeCount": 19,
       "statusCounts": {
+        "initial outreach": 25,
         "passed": 21,
         "follow up": 14,
-        "initial outreach": 14,
         "pending approval": 23,
         "gifted": 2,
         "active partnership": 18,
@@ -107,8 +107,8 @@
         "paid": 5
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 7.3,
-      "lastActivityAt": 1787608136711,
+      "monthsActive": 7.4,
+      "lastActivityAt": 1787717464194,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -180,18 +180,18 @@
     {
       "slug": "michele",
       "name": "Michele Williams, HomeCareCoaching",
-      "totalBrands": 10,
+      "totalBrands": 11,
       "activeCount": 3,
       "statusCounts": {
-        "pending approval": 10,
+        "gifted": 8,
+        "pending approval": 11,
         "initial outreach": 10,
-        "gifted": 7,
         "follow up": 3,
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
       "monthsActive": 1.7,
-      "lastActivityAt": 1787583862134,
+      "lastActivityAt": 1787672719463,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -201,7 +201,7 @@
         "bitesHaveData": false,
         "paidCount": 0,
         "paidValueTotal": 0,
-        "giftedCount": 7,
+        "giftedCount": 8,
         "giftedValueTotal": 650,
         "unpaidCount": 0,
         "affiliateCount": 0,
@@ -210,7 +210,7 @@
       "funnel": {
         "bites": 3,
         "meetings": 0,
-        "landed": 7
+        "landed": 8
       },
       "funnelMode": "buckets",
       "trend": [
