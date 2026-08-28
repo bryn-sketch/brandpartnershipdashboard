@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-08-26T10:55:03.972Z",
+  "generatedAt": "2026-08-28T21:48:24.556Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
-      "totalBrands": 16,
-      "activeCount": 13,
+      "totalBrands": 15,
+      "activeCount": 12,
       "statusCounts": {
-        "passed": 1,
+        "pending approval": 1,
+        "complete": 113,
+        "passed": 2,
         "in communication": 4,
-        "follow up": 8,
+        "follow up": 7,
         "meetings": 1,
-        "complete": 98,
         "initial outreach": 2,
-        "pending approval": 14,
         "gifted": 1,
         "unpaid": 1,
         "affiliate": 1
       },
       "campaignStartAt": 1777881600000,
-      "monthsActive": 3.7,
-      "lastActivityAt": 1787503889577,
+      "monthsActive": 3.8,
+      "lastActivityAt": 1787769670890,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
         "meetingsCount": 1,
-        "newBitesThisMonth": 4,
+        "newBitesThisMonth": 3,
         "newBitesPriorMonth": 1,
         "bitesHaveData": true,
         "paidCount": 0,
@@ -37,7 +37,7 @@
         "totalLandedValue": 120
       },
       "funnel": {
-        "bites": 12,
+        "bites": 11,
         "meetings": 1,
         "landed": 3
       },
@@ -95,7 +95,7 @@
       "totalBrands": 35,
       "activeCount": 19,
       "statusCounts": {
-        "initial outreach": 25,
+        "initial outreach": 26,
         "passed": 21,
         "follow up": 14,
         "pending approval": 23,
@@ -107,8 +107,8 @@
         "paid": 5
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 7.4,
-      "lastActivityAt": 1787717464194,
+      "monthsActive": 7.5,
+      "lastActivityAt": 1787936827265,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -190,8 +190,8 @@
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
-      "monthsActive": 1.7,
-      "lastActivityAt": 1787672719463,
+      "monthsActive": 1.8,
+      "lastActivityAt": 1787949456553,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
