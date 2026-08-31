@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T09:06:47.086Z",
+  "generatedAt": "2026-08-31T09:06:41.588Z",
   "clients": [
     {
       "slug": "vadali",
@@ -190,7 +190,7 @@
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
-      "monthsActive": 1.8,
+      "monthsActive": 1.9,
       "lastActivityAt": 1788042069828,
       "agingBrands": [],
       "isAging": false,
