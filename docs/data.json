@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T09:06:41.588Z",
+  "generatedAt": "2026-09-01T09:12:53.823Z",
   "clients": [
     {
       "slug": "vadali",
@@ -25,8 +25,8 @@
       "isAging": false,
       "kpis": {
         "meetingsCount": 1,
-        "newBitesThisMonth": 3,
-        "newBitesPriorMonth": 1,
+        "newBitesThisMonth": 0,
+        "newBitesPriorMonth": 3,
         "bitesHaveData": true,
         "paidCount": 0,
         "paidValueTotal": 0,
@@ -43,10 +43,6 @@
       },
       "funnelMode": "buckets",
       "trend": [
-        {
-          "label": "Mar",
-          "value": 0
-        },
         {
           "label": "Apr",
           "value": 0
@@ -65,6 +61,10 @@
         },
         {
           "label": "Aug",
+          "value": 0
+        },
+        {
+          "label": "Sep",
           "value": 0
         }
       ],
@@ -92,30 +92,30 @@
     {
       "slug": "jordyn",
       "name": "Jordyn Koveleski Gorman, Eat Play Say",
-      "totalBrands": 35,
-      "activeCount": 19,
+      "totalBrands": 39,
+      "activeCount": 23,
       "statusCounts": {
-        "initial outreach": 26,
+        "initial outreach": 23,
+        "follow up": 17,
+        "in communication": 6,
         "passed": 21,
-        "follow up": 14,
         "pending approval": 23,
         "gifted": 2,
         "active partnership": 18,
-        "in communication": 5,
         "complete": 225,
         "affiliate": 9,
         "paid": 5
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 7.5,
-      "lastActivityAt": 1787936827265,
+      "monthsActive": 7.6,
+      "lastActivityAt": 1788204754731,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
         "meetingsCount": 0,
         "newBitesThisMonth": 0,
-        "newBitesPriorMonth": 0,
-        "bitesHaveData": false,
+        "newBitesPriorMonth": 4,
+        "bitesHaveData": true,
         "paidCount": 5,
         "paidValueTotal": 27000,
         "giftedCount": 2,
@@ -125,16 +125,12 @@
         "totalLandedValue": 38267
       },
       "funnel": {
-        "bites": 19,
+        "bites": 23,
         "meetings": 0,
         "landed": 16
       },
       "funnelMode": "buckets",
       "trend": [
-        {
-          "label": "Mar",
-          "value": 0
-        },
         {
           "label": "Apr",
           "value": 0
@@ -154,6 +150,10 @@
         {
           "label": "Aug",
           "value": 8000
+        },
+        {
+          "label": "Sep",
+          "value": 0
         }
       ],
       "trendHasData": true,
@@ -191,7 +191,7 @@
       },
       "campaignStartAt": 1783296000000,
       "monthsActive": 1.9,
-      "lastActivityAt": 1788042069828,
+      "lastActivityAt": 1788206547531,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -215,10 +215,6 @@
       "funnelMode": "buckets",
       "trend": [
         {
-          "label": "Mar",
-          "value": 0
-        },
-        {
           "label": "Apr",
           "value": 0
         },
@@ -236,6 +232,10 @@
         },
         {
           "label": "Aug",
+          "value": 0
+        },
+        {
+          "label": "Sep",
           "value": 0
         }
       ],
