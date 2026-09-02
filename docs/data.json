@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T09:12:53.823Z",
+  "generatedAt": "2026-09-02T09:13:05.792Z",
   "clients": [
     {
       "slug": "vadali",
@@ -19,7 +19,7 @@
         "affiliate": 1
       },
       "campaignStartAt": 1777881600000,
-      "monthsActive": 3.9,
+      "monthsActive": 4,
       "lastActivityAt": 1787769670890,
       "agingBrands": [],
       "isAging": false,
@@ -92,11 +92,11 @@
     {
       "slug": "jordyn",
       "name": "Jordyn Koveleski Gorman, Eat Play Say",
-      "totalBrands": 39,
-      "activeCount": 23,
+      "totalBrands": 43,
+      "activeCount": 27,
       "statusCounts": {
-        "initial outreach": 23,
-        "follow up": 17,
+        "initial outreach": 19,
+        "follow up": 21,
         "in communication": 6,
         "passed": 21,
         "pending approval": 23,
@@ -108,13 +108,13 @@
       },
       "campaignStartAt": 1768348800000,
       "monthsActive": 7.6,
-      "lastActivityAt": 1788204754731,
+      "lastActivityAt": 1788284282464,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
         "meetingsCount": 0,
         "newBitesThisMonth": 0,
-        "newBitesPriorMonth": 4,
+        "newBitesPriorMonth": 7,
         "bitesHaveData": true,
         "paidCount": 5,
         "paidValueTotal": 27000,
@@ -125,7 +125,7 @@
         "totalLandedValue": 38267
       },
       "funnel": {
-        "bites": 23,
+        "bites": 27,
         "meetings": 0,
         "landed": 16
       },
