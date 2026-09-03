@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T09:13:05.792Z",
+  "generatedAt": "2026-09-03T09:13:28.235Z",
   "clients": [
     {
       "slug": "vadali",
@@ -96,8 +96,8 @@
       "activeCount": 27,
       "statusCounts": {
         "initial outreach": 19,
-        "follow up": 21,
-        "in communication": 6,
+        "follow up": 20,
+        "in communication": 7,
         "passed": 21,
         "pending approval": 23,
         "gifted": 2,
@@ -108,7 +108,7 @@
       },
       "campaignStartAt": 1768348800000,
       "monthsActive": 7.6,
-      "lastActivityAt": 1788284282464,
+      "lastActivityAt": 1788365933224,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -190,7 +190,7 @@
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
-      "monthsActive": 1.9,
+      "monthsActive": 2,
       "lastActivityAt": 1788206547531,
       "agingBrands": [],
       "isAging": false,
