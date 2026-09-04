@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T09:13:28.235Z",
+  "generatedAt": "2026-09-04T09:12:57.298Z",
   "clients": [
     {
       "slug": "vadali",
@@ -92,12 +92,12 @@
     {
       "slug": "jordyn",
       "name": "Jordyn Koveleski Gorman, Eat Play Say",
-      "totalBrands": 43,
-      "activeCount": 27,
+      "totalBrands": 45,
+      "activeCount": 29,
       "statusCounts": {
-        "initial outreach": 19,
-        "follow up": 20,
-        "in communication": 7,
+        "initial outreach": 17,
+        "follow up": 21,
+        "in communication": 8,
         "passed": 21,
         "pending approval": 23,
         "gifted": 2,
@@ -107,14 +107,14 @@
         "paid": 5
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 7.6,
-      "lastActivityAt": 1788365933224,
+      "monthsActive": 7.7,
+      "lastActivityAt": 1788449536695,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
         "meetingsCount": 0,
         "newBitesThisMonth": 0,
-        "newBitesPriorMonth": 7,
+        "newBitesPriorMonth": 8,
         "bitesHaveData": true,
         "paidCount": 5,
         "paidValueTotal": 27000,
@@ -125,7 +125,7 @@
         "totalLandedValue": 38267
       },
       "funnel": {
-        "bites": 27,
+        "bites": 29,
         "meetings": 0,
         "landed": 16
       },
@@ -192,8 +192,24 @@
       "campaignStartAt": 1783296000000,
       "monthsActive": 2,
       "lastActivityAt": 1788206547531,
-      "agingBrands": [],
-      "isAging": false,
+      "agingBrands": [
+        {
+          "name": "Koalendar",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "PairEyewear",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "HelloFresh",
+          "status": "follow up",
+          "daysSince": 21
+        }
+      ],
+      "isAging": true,
       "kpis": {
         "meetingsCount": 0,
         "newBitesThisMonth": 0,
