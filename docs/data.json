@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T09:12:57.298Z",
+  "generatedAt": "2026-09-05T09:11:47.702Z",
   "clients": [
     {
       "slug": "vadali",
@@ -19,7 +19,7 @@
         "affiliate": 1
       },
       "campaignStartAt": 1777881600000,
-      "monthsActive": 4,
+      "monthsActive": 4.1,
       "lastActivityAt": 1787769670890,
       "agingBrands": [],
       "isAging": false,
@@ -95,11 +95,11 @@
       "totalBrands": 45,
       "activeCount": 29,
       "statusCounts": {
-        "initial outreach": 17,
+        "initial outreach": 18,
+        "pending approval": 25,
         "follow up": 21,
         "in communication": 8,
         "passed": 21,
-        "pending approval": 23,
         "gifted": 2,
         "active partnership": 18,
         "complete": 225,
@@ -108,7 +108,7 @@
       },
       "campaignStartAt": 1768348800000,
       "monthsActive": 7.7,
-      "lastActivityAt": 1788449536695,
+      "lastActivityAt": 1788535530216,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -196,17 +196,17 @@
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         }
       ],
       "isAging": true,
