@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T09:12:01.192Z",
+  "generatedAt": "2026-09-07T09:14:02.340Z",
   "clients": [
     {
       "slug": "vadali",
@@ -107,7 +107,7 @@
         "paid": 5
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 7.7,
+      "monthsActive": 7.8,
       "lastActivityAt": 1788535530216,
       "agingBrands": [],
       "isAging": false,
@@ -190,23 +190,23 @@
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
-      "monthsActive": 2,
+      "monthsActive": 2.1,
       "lastActivityAt": 1788206547531,
       "agingBrands": [
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         }
       ],
       "isAging": true,
