@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T09:14:00.152Z",
+  "generatedAt": "2026-09-09T09:13:13.477Z",
   "clients": [
     {
       "slug": "vadali",
@@ -109,8 +109,39 @@
       "campaignStartAt": 1768348800000,
       "monthsActive": 7.8,
       "lastActivityAt": 1788535530216,
-      "agingBrands": [],
-      "isAging": false,
+      "agingBrands": [
+        {
+          "name": "Highlights",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Coterie",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Earth Mama",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Doona",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Mushie",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Baby Bjorn",
+          "status": "follow up",
+          "daysSince": 21
+        }
+      ],
+      "isAging": true,
       "kpis": {
         "meetingsCount": 0,
         "newBitesThisMonth": 0,
@@ -196,17 +227,17 @@
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 25
+          "daysSince": 26
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 25
+          "daysSince": 26
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 25
+          "daysSince": 26
         }
       ],
       "isAging": true,
