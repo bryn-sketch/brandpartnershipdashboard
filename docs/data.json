@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-09T09:13:13.477Z",
+  "generatedAt": "2026-09-10T09:13:08.759Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
       "totalBrands": 15,
-      "activeCount": 12,
+      "activeCount": 13,
       "statusCounts": {
+        "in communication": 5,
+        "initial outreach": 19,
+        "events": 4,
         "pending approval": 1,
-        "complete": 113,
+        "complete": 115,
         "passed": 2,
-        "in communication": 4,
         "follow up": 7,
         "meetings": 1,
-        "initial outreach": 2,
         "gifted": 1,
-        "unpaid": 1,
         "affiliate": 1
       },
       "campaignStartAt": 1777881600000,
       "monthsActive": 4.2,
-      "lastActivityAt": 1787769670890,
+      "lastActivityAt": 1788987044204,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -32,14 +32,14 @@
         "paidValueTotal": 0,
         "giftedCount": 1,
         "giftedValueTotal": 120,
-        "unpaidCount": 1,
+        "unpaidCount": 0,
         "affiliateCount": 1,
         "totalLandedValue": 120
       },
       "funnel": {
-        "bites": 11,
+        "bites": 12,
         "meetings": 1,
-        "landed": 3
+        "landed": 2
       },
       "funnelMode": "buckets",
       "trend": [
@@ -72,7 +72,7 @@
       "ytd": {
         "valueLanded": 0,
         "avgPaidDeal": 0,
-        "unpaidOpps": 1
+        "unpaidOpps": 0
       },
       "stageLabels": {
         "pending approval": "Pending Approval",
@@ -92,14 +92,14 @@
     {
       "slug": "jordyn",
       "name": "Jordyn Koveleski Gorman, Eat Play Say",
-      "totalBrands": 45,
-      "activeCount": 29,
+      "totalBrands": 44,
+      "activeCount": 28,
       "statusCounts": {
         "initial outreach": 18,
         "pending approval": 25,
-        "follow up": 21,
+        "follow up": 20,
         "in communication": 8,
-        "passed": 21,
+        "passed": 22,
         "gifted": 2,
         "active partnership": 18,
         "complete": 225,
@@ -107,36 +107,41 @@
         "paid": 5
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 7.8,
-      "lastActivityAt": 1788535530216,
+      "monthsActive": 7.9,
+      "lastActivityAt": 1788979464678,
       "agingBrands": [
         {
           "name": "Highlights",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "Coterie",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "Earth Mama",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "Doona",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "Mushie",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "Baby Bjorn",
+          "status": "follow up",
+          "daysSince": 22
+        },
+        {
+          "name": "TJX (HomeGoods, Homesense, etc.)",
           "status": "follow up",
           "daysSince": 21
         }
@@ -156,7 +161,7 @@
         "totalLandedValue": 38267
       },
       "funnel": {
-        "bites": 29,
+        "bites": 28,
         "meetings": 0,
         "landed": 16
       },
@@ -221,23 +226,23 @@
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
-      "monthsActive": 2.1,
+      "monthsActive": 2.2,
       "lastActivityAt": 1788206547531,
       "agingBrands": [
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 26
+          "daysSince": 27
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 26
+          "daysSince": 27
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 26
+          "daysSince": 27
         }
       ],
       "isAging": true,
