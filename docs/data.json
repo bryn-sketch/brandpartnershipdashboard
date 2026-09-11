@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T09:13:08.759Z",
+  "generatedAt": "2026-09-11T09:12:53.542Z",
   "clients": [
     {
       "slug": "vadali",
@@ -19,7 +19,7 @@
         "affiliate": 1
       },
       "campaignStartAt": 1777881600000,
-      "monthsActive": 4.2,
+      "monthsActive": 4.3,
       "lastActivityAt": 1788987044204,
       "agingBrands": [],
       "isAging": false,
@@ -113,37 +113,37 @@
         {
           "name": "Highlights",
           "status": "follow up",
-          "daysSince": 22
+          "daysSince": 23
         },
         {
           "name": "Coterie",
           "status": "follow up",
-          "daysSince": 22
+          "daysSince": 23
         },
         {
           "name": "Earth Mama",
           "status": "follow up",
-          "daysSince": 22
+          "daysSince": 23
         },
         {
           "name": "Doona",
           "status": "follow up",
-          "daysSince": 22
+          "daysSince": 23
         },
         {
           "name": "Mushie",
           "status": "follow up",
-          "daysSince": 22
+          "daysSince": 23
         },
         {
           "name": "Baby Bjorn",
           "status": "follow up",
-          "daysSince": 22
+          "daysSince": 23
         },
         {
           "name": "TJX (HomeGoods, Homesense, etc.)",
           "status": "follow up",
-          "daysSince": 21
+          "daysSince": 22
         }
       ],
       "isAging": true,
@@ -232,17 +232,17 @@
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 27
+          "daysSince": 28
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 27
+          "daysSince": 28
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 27
+          "daysSince": 28
         }
       ],
       "isAging": true,
