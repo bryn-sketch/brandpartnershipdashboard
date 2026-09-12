@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T09:12:53.542Z",
+  "generatedAt": "2026-09-12T09:11:54.311Z",
   "clients": [
     {
       "slug": "vadali",
@@ -7,8 +7,8 @@
       "totalBrands": 15,
       "activeCount": 13,
       "statusCounts": {
+        "initial outreach": 26,
         "in communication": 5,
-        "initial outreach": 19,
         "events": 4,
         "pending approval": 1,
         "complete": 115,
@@ -20,7 +20,7 @@
       },
       "campaignStartAt": 1777881600000,
       "monthsActive": 4.3,
-      "lastActivityAt": 1788987044204,
+      "lastActivityAt": 1789160520859,
       "agingBrands": [],
       "isAging": false,
       "kpis": {
@@ -113,37 +113,92 @@
         {
           "name": "Highlights",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "Coterie",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "Earth Mama",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "Doona",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "Mushie",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "Baby Bjorn",
           "status": "follow up",
-          "daysSince": 23
+          "daysSince": 24
         },
         {
           "name": "TJX (HomeGoods, Homesense, etc.)",
           "status": "follow up",
-          "daysSince": 22
+          "daysSince": 23
+        },
+        {
+          "name": "The Container Store",
+          "status": "in communication",
+          "daysSince": 21
+        },
+        {
+          "name": "Harppa",
+          "status": "in communication",
+          "daysSince": 21
+        },
+        {
+          "name": "KitchenAid",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Naples Botanical Garden",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Brightberry",
+          "status": "in communication",
+          "daysSince": 21
+        },
+        {
+          "name": "Toki play mats",
+          "status": "in communication",
+          "daysSince": 21
+        },
+        {
+          "name": "Yoto",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Oeuf",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "Bumkins",
+          "status": "follow up",
+          "daysSince": 21
+        },
+        {
+          "name": "UpSeat",
+          "status": "in communication",
+          "daysSince": 21
+        },
+        {
+          "name": "Solly Baby",
+          "status": "follow up",
+          "daysSince": 21
         }
       ],
       "isAging": true,
@@ -232,17 +287,17 @@
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 28
+          "daysSince": 29
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 28
+          "daysSince": 29
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 28
+          "daysSince": 29
         }
       ],
       "isAging": true,
