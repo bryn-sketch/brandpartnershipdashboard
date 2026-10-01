@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-30T15:43:12.645Z",
+  "generatedAt": "2026-10-01T16:05:48.861Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
-      "totalBrands": 15,
-      "activeCount": 13,
+      "totalBrands": 16,
+      "activeCount": 14,
       "statusCounts": {
+        "in communication": 6,
         "initial outreach": 42,
         "passed": 5,
         "events": 6,
-        "in communication": 5,
         "complete": 116,
         "follow up": 7,
         "meetings": 1,
@@ -19,64 +19,64 @@
       },
       "campaignStartAt": 1777881600000,
       "monthsActive": 4.9,
-      "lastActivityAt": 1790720132978,
+      "lastActivityAt": 1790805240618,
       "agingBrands": [
         {
           "name": "SU Magazine",
           "status": "in communication",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "Dr. Jila Senemar",
           "status": "follow up",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "Modern Day Wife",
           "status": "meetings",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "The Assembly",
           "status": "in communication",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "DocFluCon",
           "status": "follow up",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "HER in Focus",
           "status": "follow up",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "Mom 2.0",
           "status": "follow up",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "Fountain Life",
           "status": "follow up",
-          "daysSince": 38
+          "daysSince": 39
         },
         {
           "name": "Activations (Mimi Bouchard)",
           "status": "follow up",
-          "daysSince": 35
+          "daysSince": 36
         },
         {
           "name": "Melissa Wood Health",
           "status": "follow up",
-          "daysSince": 35
+          "daysSince": 36
         }
       ],
       "isAging": true,
       "kpis": {
         "meetingsCount": 1,
         "newBitesThisMonth": 0,
-        "newBitesPriorMonth": 1,
+        "newBitesPriorMonth": 0,
         "bitesHaveData": true,
         "paidCount": 0,
         "paidValueTotal": 0,
@@ -87,16 +87,12 @@
         "totalLandedValue": 120
       },
       "funnel": {
-        "bites": 12,
+        "bites": 13,
         "meetings": 1,
         "landed": 2
       },
       "funnelMode": "buckets",
       "trend": [
-        {
-          "label": "Apr",
-          "value": 0
-        },
         {
           "label": "May",
           "value": 0
@@ -115,6 +111,10 @@
         },
         {
           "label": "Sep",
+          "value": 0
+        },
+        {
+          "label": "Oct",
           "value": 0
         }
       ],
@@ -157,140 +157,140 @@
         "affiliate": 9
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 8.5,
+      "monthsActive": 8.6,
       "lastActivityAt": 1790610123556,
       "agingBrands": [
         {
           "name": "Highlights",
           "status": "follow up",
-          "daysSince": 42
+          "daysSince": 43
         },
         {
           "name": "Coterie",
           "status": "follow up",
-          "daysSince": 42
+          "daysSince": 43
         },
         {
           "name": "Earth Mama",
           "status": "follow up",
-          "daysSince": 42
+          "daysSince": 43
         },
         {
           "name": "Doona",
           "status": "follow up",
-          "daysSince": 42
+          "daysSince": 43
         },
         {
           "name": "Mushie",
           "status": "follow up",
-          "daysSince": 42
+          "daysSince": 43
         },
         {
           "name": "Baby Bjorn",
           "status": "follow up",
-          "daysSince": 42
+          "daysSince": 43
         },
         {
           "name": "TJX (HomeGoods, Homesense, etc.)",
           "status": "follow up",
-          "daysSince": 41
+          "daysSince": 42
         },
         {
           "name": "The Container Store",
           "status": "in communication",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Harppa",
           "status": "in communication",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "KitchenAid",
           "status": "follow up",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Naples Botanical Garden",
           "status": "follow up",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Brightberry",
           "status": "in communication",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Toki play mats",
           "status": "in communication",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Oeuf",
           "status": "follow up",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Bumkins",
           "status": "follow up",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "UpSeat",
           "status": "in communication",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Solly Baby",
           "status": "follow up",
-          "daysSince": 39
+          "daysSince": 40
         },
         {
           "name": "Old Navy",
           "status": "follow up",
-          "daysSince": 29
+          "daysSince": 30
         },
         {
           "name": "FisherPrice",
           "status": "follow up",
-          "daysSince": 29
+          "daysSince": 30
         },
         {
           "name": "Cadootz",
           "status": "in communication",
-          "daysSince": 29
+          "daysSince": 30
         },
         {
           "name": "Honest / Honest Baby",
           "status": "follow up",
-          "daysSince": 28
+          "daysSince": 29
         },
         {
           "name": "Kohls",
           "status": "follow up",
-          "daysSince": 28
+          "daysSince": 29
         },
         {
           "name": "Nuby",
           "status": "in communication",
-          "daysSince": 27
+          "daysSince": 28
         },
         {
           "name": "Sticker Box",
           "status": "in communication",
-          "daysSince": 27
+          "daysSince": 28
         },
         {
           "name": "Lovesac",
           "status": "follow up",
-          "daysSince": 27
+          "daysSince": 28
         }
       ],
       "isAging": true,
       "kpis": {
         "meetingsCount": 0,
-        "newBitesThisMonth": 3,
-        "newBitesPriorMonth": 7,
+        "newBitesThisMonth": 0,
+        "newBitesPriorMonth": 3,
         "bitesHaveData": true,
         "paidCount": 6,
         "paidValueTotal": 32000,
@@ -307,10 +307,6 @@
       },
       "funnelMode": "buckets",
       "trend": [
-        {
-          "label": "Apr",
-          "value": 0
-        },
         {
           "label": "May",
           "value": 0
@@ -329,6 +325,10 @@
         },
         {
           "label": "Sep",
+          "value": 0
+        },
+        {
+          "label": "Oct",
           "value": 0
         }
       ],
@@ -366,23 +366,23 @@
         "passed": 1
       },
       "campaignStartAt": 1783296000000,
-      "monthsActive": 2.8,
+      "monthsActive": 2.9,
       "lastActivityAt": 1788206547531,
       "agingBrands": [
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 48
+          "daysSince": 49
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 48
+          "daysSince": 49
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 48
+          "daysSince": 49
         }
       ],
       "isAging": true,
@@ -407,10 +407,6 @@
       "funnelMode": "buckets",
       "trend": [
         {
-          "label": "Apr",
-          "value": 0
-        },
-        {
           "label": "May",
           "value": 0
         },
@@ -428,6 +424,10 @@
         },
         {
           "label": "Sep",
+          "value": 0
+        },
+        {
+          "label": "Oct",
           "value": 0
         }
       ],
