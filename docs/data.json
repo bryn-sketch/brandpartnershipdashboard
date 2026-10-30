@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-29T15:55:06.544Z",
+  "generatedAt": "2026-10-30T15:39:53.573Z",
   "clients": [
     {
       "slug": "vadali",
       "name": "Dr. Sirisha Vadali, Vadali MD",
-      "totalBrands": 22,
-      "activeCount": 20,
+      "totalBrands": 20,
+      "activeCount": 18,
       "statusCounts": {
-        "in communication": 12,
-        "passed": 9,
-        "initial outreach": 61,
-        "events": 7,
+        "in communication": 10,
+        "passed": 14,
+        "initial outreach": 49,
+        "events": 8,
         "pending approval": 1,
-        "complete": 116,
+        "complete": 124,
         "follow up": 7,
         "meetings": 1,
         "gifted": 1,
@@ -20,7 +20,7 @@
       },
       "campaignStartAt": 1777881600000,
       "monthsActive": 5.9,
-      "lastActivityAt": 1793219585505,
+      "lastActivityAt": 1793313164714,
       "agingBrands": [
         {
           "name": "SU Magazine",
@@ -65,32 +65,27 @@
         {
           "name": "Activations (Mimi Bouchard)",
           "status": "follow up",
-          "daysSince": 64
+          "daysSince": 65
         },
         {
           "name": "Melissa Wood Health",
           "status": "follow up",
-          "daysSince": 64
+          "daysSince": 65
         },
         {
           "name": "Thrive Well https://www.thrivewellexperiences.com/",
           "status": "in communication",
-          "daysSince": 43
+          "daysSince": 44
         },
         {
           "name": "Day/Dream Gifting Opportunity",
           "status": "in communication",
-          "daysSince": 33
+          "daysSince": 34
         },
         {
           "name": "Deecode Media House / EyvaX Potential Paid Partnership",
           "status": "in communication",
-          "daysSince": 33
-        },
-        {
-          "name": "Pulsetto - requested rates for a potential partnership",
-          "status": "in communication",
-          "daysSince": 23
+          "daysSince": 34
         }
       ],
       "isAging": true,
@@ -108,7 +103,7 @@
         "totalLandedValue": 120
       },
       "funnel": {
-        "bites": 19,
+        "bites": 17,
         "meetings": 1,
         "landed": 2
       },
@@ -163,173 +158,173 @@
     {
       "slug": "jordyn",
       "name": "Jordyn Koveleski Gorman, Eat Play Say",
-      "totalBrands": 48,
-      "activeCount": 30,
+      "totalBrands": 49,
+      "activeCount": 31,
       "statusCounts": {
         "pending approval": 27,
         "passed": 23,
         "paid": 6,
         "gifted": 3,
-        "in communication": 9,
+        "in communication": 10,
         "initial outreach": 17,
         "follow up": 21,
         "active partnership": 18,
-        "complete": 225,
+        "complete": 224,
         "affiliate": 9
       },
       "campaignStartAt": 1768348800000,
       "monthsActive": 9.5,
-      "lastActivityAt": 1791297215613,
+      "lastActivityAt": 1793289392507,
       "agingBrands": [
         {
           "name": "Highlights",
           "status": "follow up",
-          "daysSince": 71
+          "daysSince": 72
         },
         {
           "name": "Coterie",
           "status": "follow up",
-          "daysSince": 71
+          "daysSince": 72
         },
         {
           "name": "Earth Mama",
           "status": "follow up",
-          "daysSince": 71
+          "daysSince": 72
         },
         {
           "name": "Doona",
           "status": "follow up",
-          "daysSince": 71
+          "daysSince": 72
         },
         {
           "name": "Mushie",
           "status": "follow up",
-          "daysSince": 71
+          "daysSince": 72
         },
         {
           "name": "Baby Bjorn",
           "status": "follow up",
-          "daysSince": 71
+          "daysSince": 72
         },
         {
           "name": "TJX (HomeGoods, Homesense, etc.)",
           "status": "follow up",
-          "daysSince": 70
+          "daysSince": 71
         },
         {
           "name": "The Container Store",
           "status": "in communication",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Harppa",
           "status": "in communication",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "KitchenAid",
           "status": "follow up",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Naples Botanical Garden",
           "status": "follow up",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Brightberry",
           "status": "in communication",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Toki play mats",
           "status": "in communication",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Oeuf",
           "status": "follow up",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Bumkins",
           "status": "follow up",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "UpSeat",
           "status": "in communication",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Solly Baby",
           "status": "follow up",
-          "daysSince": 68
+          "daysSince": 69
         },
         {
           "name": "Old Navy",
           "status": "follow up",
-          "daysSince": 58
+          "daysSince": 59
         },
         {
           "name": "FisherPrice",
           "status": "follow up",
-          "daysSince": 58
+          "daysSince": 59
         },
         {
           "name": "Cadootz",
           "status": "in communication",
-          "daysSince": 58
+          "daysSince": 59
         },
         {
           "name": "Honest / Honest Baby",
           "status": "follow up",
-          "daysSince": 57
+          "daysSince": 58
         },
         {
           "name": "Kohls",
           "status": "follow up",
-          "daysSince": 57
+          "daysSince": 58
         },
         {
           "name": "Nuby",
           "status": "in communication",
-          "daysSince": 56
+          "daysSince": 57
         },
         {
           "name": "Sticker Box",
           "status": "in communication",
-          "daysSince": 56
+          "daysSince": 57
         },
         {
           "name": "Lovesac",
           "status": "follow up",
-          "daysSince": 56
+          "daysSince": 57
         },
         {
           "name": "Playhouse MD",
           "status": "in communication",
-          "daysSince": 35
+          "daysSince": 36
         },
         {
           "name": "Lansinoh",
           "status": "follow up",
-          "daysSince": 35
+          "daysSince": 36
         },
         {
           "name": "Melissa & Doug",
           "status": "follow up",
-          "daysSince": 35
+          "daysSince": 36
         },
         {
           "name": "Pottery Barn Kids",
           "status": "follow up",
-          "daysSince": 35
+          "daysSince": 36
         },
         {
           "name": "Yoto",
           "status": "follow up",
-          "daysSince": 35
+          "daysSince": 36
         }
       ],
       "isAging": true,
@@ -347,7 +342,7 @@
         "totalLandedValue": 43267
       },
       "funnel": {
-        "bites": 30,
+        "bites": 31,
         "meetings": 0,
         "landed": 18
       },
@@ -418,17 +413,17 @@
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 77
+          "daysSince": 78
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 77
+          "daysSince": 78
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 77
+          "daysSince": 78
         }
       ],
       "isAging": true,
