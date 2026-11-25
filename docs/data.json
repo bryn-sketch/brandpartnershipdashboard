@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T19:59:59.300Z",
+  "generatedAt": "2026-11-25T19:00:06.930Z",
   "clients": [
     {
       "slug": "vadali",
@@ -19,56 +19,61 @@
         "affiliate": 1
       },
       "campaignStartAt": 1777881600000,
-      "monthsActive": 6.7,
+      "monthsActive": 6.8,
       "lastActivityAt": 1795120336112,
       "agingBrands": [
         {
           "name": "Modern Day Wife",
           "status": "meetings",
-          "daysSince": 93
+          "daysSince": 94
         },
         {
           "name": "Fountain Life",
           "status": "follow up",
-          "daysSince": 93
+          "daysSince": 94
         },
         {
           "name": "Melissa Wood Health",
           "status": "follow up",
-          "daysSince": 90
+          "daysSince": 91
         },
         {
           "name": "Thrive Well https://www.thrivewellexperiences.com/",
           "status": "in communication",
-          "daysSince": 70
+          "daysSince": 71
         },
         {
           "name": "Deecode Media House / EyvaX Potential Paid Partnership",
           "status": "in communication",
-          "daysSince": 59
+          "daysSince": 60
         },
         {
           "name": "KLY Event - Art Basel",
           "status": "in communication",
-          "daysSince": 32
+          "daysSince": 33
         },
         {
           "name": "HERS Conference",
           "status": "in communication",
-          "daysSince": 32
+          "daysSince": 33
         },
         {
           "name": "Global Longevity Association",
           "status": "in communication",
-          "daysSince": 31
+          "daysSince": 32
         },
         {
           "name": "Human Longevity (HLI)",
           "status": "in communication",
-          "daysSince": 21
+          "daysSince": 22
         },
         {
           "name": "Alloy Women's Health",
+          "status": "in communication",
+          "daysSince": 22
+        },
+        {
+          "name": "DriveShop",
           "status": "in communication",
           "daysSince": 21
         }
@@ -158,43 +163,53 @@
         "affiliate": 9
       },
       "campaignStartAt": 1768348800000,
-      "monthsActive": 10.3,
+      "monthsActive": 10.4,
       "lastActivityAt": 1793289392507,
       "agingBrands": [
         {
           "name": "Highlights",
           "status": "follow up",
-          "daysSince": 98
+          "daysSince": 99
         },
         {
           "name": "Coterie",
           "status": "follow up",
-          "daysSince": 98
+          "daysSince": 99
         },
         {
           "name": "Earth Mama",
           "status": "follow up",
-          "daysSince": 98
+          "daysSince": 99
         },
         {
           "name": "Doona",
           "status": "follow up",
-          "daysSince": 98
+          "daysSince": 99
         },
         {
           "name": "Mushie",
           "status": "follow up",
-          "daysSince": 98
+          "daysSince": 99
         },
         {
           "name": "Baby Bjorn",
           "status": "follow up",
-          "daysSince": 98
+          "daysSince": 99
         },
         {
           "name": "TJX (HomeGoods, Homesense, etc.)",
           "status": "follow up",
-          "daysSince": 97
+          "daysSince": 98
+        },
+        {
+          "name": "The Container Store",
+          "status": "in communication",
+          "daysSince": 95
+        },
+        {
+          "name": "Harppa",
+          "status": "in communication",
+          "daysSince": 95
         },
         {
           "name": "KitchenAid",
@@ -202,52 +217,52 @@
           "daysSince": 95
         },
         {
-          "name": "The Container Store",
-          "status": "in communication",
-          "daysSince": 94
-        },
-        {
-          "name": "Harppa",
-          "status": "in communication",
-          "daysSince": 94
-        },
-        {
           "name": "Naples Botanical Garden",
           "status": "follow up",
-          "daysSince": 94
+          "daysSince": 95
         },
         {
           "name": "Brightberry",
           "status": "in communication",
-          "daysSince": 94
+          "daysSince": 95
         },
         {
           "name": "Toki play mats",
           "status": "in communication",
-          "daysSince": 94
+          "daysSince": 95
         },
         {
           "name": "Oeuf",
           "status": "follow up",
-          "daysSince": 94
+          "daysSince": 95
         },
         {
           "name": "Bumkins",
           "status": "follow up",
-          "daysSince": 94
+          "daysSince": 95
         },
         {
           "name": "UpSeat",
           "status": "in communication",
-          "daysSince": 94
+          "daysSince": 95
         },
         {
           "name": "Solly Baby",
           "status": "follow up",
-          "daysSince": 94
+          "daysSince": 95
         },
         {
           "name": "Old Navy",
+          "status": "follow up",
+          "daysSince": 85
+        },
+        {
+          "name": "Honest / Honest Baby",
+          "status": "follow up",
+          "daysSince": 85
+        },
+        {
+          "name": "Kohls",
           "status": "follow up",
           "daysSince": 85
         },
@@ -262,59 +277,49 @@
           "daysSince": 85
         },
         {
-          "name": "Honest / Honest Baby",
-          "status": "follow up",
-          "daysSince": 84
-        },
-        {
-          "name": "Kohls",
-          "status": "follow up",
-          "daysSince": 84
-        },
-        {
           "name": "Nuby",
           "status": "in communication",
-          "daysSince": 83
+          "daysSince": 84
         },
         {
           "name": "Sticker Box",
           "status": "in communication",
-          "daysSince": 82
+          "daysSince": 83
         },
         {
           "name": "Lovesac",
           "status": "follow up",
-          "daysSince": 82
+          "daysSince": 83
         },
         {
           "name": "Playhouse MD",
           "status": "in communication",
-          "daysSince": 61
+          "daysSince": 62
         },
         {
           "name": "Lansinoh",
           "status": "follow up",
-          "daysSince": 61
+          "daysSince": 62
         },
         {
           "name": "Melissa & Doug",
           "status": "follow up",
-          "daysSince": 61
+          "daysSince": 62
         },
         {
           "name": "Pottery Barn Kids",
           "status": "follow up",
-          "daysSince": 61
+          "daysSince": 62
         },
         {
           "name": "Yoto",
           "status": "follow up",
-          "daysSince": 61
+          "daysSince": 62
         },
         {
           "name": "Momcozy",
           "status": "in communication",
-          "daysSince": 26
+          "daysSince": 27
         }
       ],
       "isAging": true,
@@ -403,17 +408,17 @@
         {
           "name": "Koalendar",
           "status": "follow up",
-          "daysSince": 103
+          "daysSince": 104
         },
         {
           "name": "PairEyewear",
           "status": "follow up",
-          "daysSince": 103
+          "daysSince": 104
         },
         {
           "name": "HelloFresh",
           "status": "follow up",
-          "daysSince": 103
+          "daysSince": 104
         }
       ],
       "isAging": true,
